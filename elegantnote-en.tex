@@ -4,13 +4,19 @@
 \author{19Q24119}
 \institute{Southeast University \\ School of Chemistry and Chemical Engineering}
 
-%\version{2.50}
 \date{\today}
 
 \usepackage{array}
 \usepackage{siunitx}
 \usepackage{mhchem}
 \usepackage{chemfig}
+
+\setchemfig{atom sep=2em}
+
+\let\oldchemname\chemname
+\renewcommand{\chemname}[2]{\oldchemname{#1}{\small #2}}
+
+\DeclareSIUnit\angstrom{\text{Å}}
 
 \begin{document}
 

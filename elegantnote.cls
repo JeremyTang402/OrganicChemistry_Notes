@@ -73,6 +73,8 @@
 \PassOptionsToPackage{quiet}{fontspec}
 \RequirePackage{amsmath,amsthm}
 \numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
 
 \RequirePackage{iftex}
 
@@ -178,6 +180,7 @@
   \newtheorem*{corollary}{推论} %
   \theoremstyle{definition} %
   \newtheorem{definition}{定义}[section] %
+  \newtheorem{mechanism}{机理}[section] %
   \newtheorem{conjecture}{猜想}[section] %
   \newtheorem{example}{例}[section] %
   \theoremstyle{remark} %
@@ -205,6 +208,7 @@
   \newtheorem*{corollary}{Corollary} %
   \theoremstyle{definition} %
   \newtheorem{definition}{Definition}[section] %
+  \newtheorem{mechanism}{Mechanism}[section] %
   \newtheorem{conjecture}{Conjecture}[section] %
   \newtheorem{example}{Example}[section] %
   \theoremstyle{remark} %
@@ -277,12 +281,12 @@
 }
 
 \let\openbox\relax
-\newtheoremstyle{plain}{\topsep}{\topsep}{\citshape}{}{%
+\newtheoremstyle{plain}{\topsep}{\topsep}{\cnormal}{}{%
   \color{ecolor}\bfseries}{}{%
   0.5em}{%
   \thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}
 
-\newtheoremstyle{definition}{\topsep}{\topsep}{\citshape}{}{%
+\newtheoremstyle{definition}{\topsep}{\topsep}{\cnormal}{}{%
   \color{ecolor}\bfseries}{}{%
   0.5em}{}
 

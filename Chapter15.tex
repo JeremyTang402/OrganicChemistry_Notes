@@ -1,2 +1,178 @@
 % !TeX root = elegantnote-en.tex
 \section{Conjugated Systems, Orbital Symmetry, and Ultraviolet Spectroscopy}
+
+\subsection{Introduction: Conjugated Systems 20260303}
+
+\begin{enumerate}
+    \item Conjugated double bonds: separated by one single bond.
+    \item Isolated double bonds: separated by two or more single bonds.
+    \item Cummulated double bonds: allenes, adjacent to each other.
+    \item Conjugated double bonds are more stable than isolated double bonds.
+\end{enumerate}
+
+\subsection{Stabilities of Dienes 20260303}
+
+\begin{enumerate}
+    \item Using heats of hydrogenation to compare the relative stabilities of alkenes. The more stable the compound, the less exothermic during hydrogenation. \\ [1em]
+    \schemestart
+        \chemname{\chemfig{=[:30]-[:-30]-[:30]-[:-30]}}{pent-1-ene}
+        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
+    \schemestop
+    $ \qquad \Delta H^\circ = \qty{-126}{\kilo\joule} $ \\
+
+    \schemestart
+        \chemname{\chemfig{-[:30]-[:-30]=[:30]-[:-30]}}{\textit{trans}-pent-2-ene}
+        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
+    \schemestop
+    $ \qquad \Delta H^\circ = \qty{-116}{\kilo\joule} $ \\ 
+
+    \schemestart
+        \chemname{\chemfig{=[:30]-[:-30]-[:30]=[:-30]}}{penta-1,4-diene}
+        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
+    \schemestop
+    $ \qquad \Delta H^\circ = \qty{-252}{\kilo\joule} $ \\
+
+    \item For conjugated dienes, the heat of hydrogenation is less than the sum for the individual double bonds, showing that the conjugated diene has extra stability. \\ [1em]
+    \schemestart
+        \chemname{\chemfig{=[:30]-[:-30]=[:30]-[:-30]}}{\textit{trans}-penta-1,3-diene}
+        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
+    \schemestop
+    $ \qquad \Delta H^\circ = \qty{-225}{\kilo\joule} \quad \text{predicted}\qty{-242}{\kilo\joule} $ \\
+
+    \item The heat of hydrogenation of penta-1,2-diene is larger than any of the other pentadienes. \\ [1em]
+    \schemestart
+        \chemname{\chemfig{C(-[:150]H)(-[:-150]H)=C=C(-[:30]H)-[:-30]CH_2CH_3}}{penta-1,2-diene (ethylallene)}
+        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
+    \schemestop
+    $ \qquad \Delta H^\circ = \qty{-292}{\kilo\joule} $ \\
+
+    \item 
+    \begin{enumerate}
+        \item The cumulated double bonds are less stable than isolated double bonds and much less stable than conjugated double bonds.
+        \item Corresponding aklynes are less stable than alkenes.
+        \item More substitution on double bonds or triple bonds increases the stability.
+    \end{enumerate}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1.0\textwidth]{15.2_Relative_Stabilities.png}
+        \caption{Relative Stabilities of Dienes and Alkynes}
+        \label{15.2_Relative_Stabilities}
+    \end{figure}
+\end{enumerate}
+
+\begin{example}
+    Rank each group of compounds in order of increasing heat of hydrogenation.
+
+    hexa-1,2-diene; hexa-1,3,5-triene; hexa-1,3-diene; hexa-1,4-diene; hexa-1,5-diene; hexa-2,4-diene
+
+    \textbf{Solution:} to be filled with chemfig
+\end{example}
+
+\begin{example}
+    In a strongly acidic solution, cyclohexa-1,4-diene tautomerizes to cyclohexa-1,3-diene. Propose a mechanism for this rearrangement, and explain why it is energetically favorable.
+
+    \textbf{Solution:} to be filled with chemfig
+\end{example}
+
+\subsection{Molecular Orbital Picture of a Conjugated System 20260303 20260305}
+The extra stability of conjugated systems can be explained by examining their molecular orbitals.
+
+\subsubsection{Structure and Bonding of Buta-1,3-diene}
+
+\begin{enumerate}
+    \item The \qty{1.48}{\angstrom} central carbon–carbon single bond is shorter than the \qty{1.54}{\angstrom} bonds typical of alkanes.
+    \item Electrons are delocalized over molecules, creating some pi overlap and pi bonding in the bond.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.7\textwidth]{15.3_Buta-1,3-diene_Structure.png}
+        \caption{Structure of Buta-1,3-diene}
+        \label{15.3_Buta-1,3-diene_Structure}
+    \end{figure}
+\end{enumerate}
+
+\subsubsection{Constructing the Molecular Orbitals of Buta-1,3-diene}
+%----------%
+\begin{enumerate}
+    \item Molecular orbitals(MO)
+    \item bonding, nonbonding, and antibonding orbitals
+    \item energies symmetrically distributed
+    \item energy of isolated \textit{p} orbital in the middle of the MO energy levels
+    \item The bonding MOs are filled and the antibonding MOs are vacant.
+    \item The average energy of the electrons is slightly lower in butadiene. This lower energy is the resonance stabilization of the conjugated diene.
+    \item Conformations of 1,3-Butadiene: \textit{s}-trans and \textit{s}-cis, the former, less crowded, is more stable than the latter.
+    \item The \textit{s}-cis and \textit{s}-trans conformers of butadiene (and all the skew conformations in between) easily interconvert at room temperature (The basis of DA reaction).
+\end{enumerate}
+
+\subsection{Allylic Cations 20260305}
+
+\begin{enumerate}
+    \item Conjugated compounds undergo a variety of reactions, many of which involve intermediates that retain some of the resonance stabilization of the conjugated system.
+    %烯丙基
+    \item allyl group: \chemfig{CH_2=CH-CH_2-}
+    \item Allylic cations and radicals are stabilized by delocalization.
+    \item Double bond interact with cations(exchange). %Prob 15-4 Resonance
+    \item Stability of carbocations: \chemfig{H_3C^+} < 1° < 2°, allyl < 3°, substituted allylic
+\end{enumerate}
+
+\subsection{1,2- and 1,4-Addition to Conjugated Dienes 20260305}
+
+\begin{enumerate}
+    \item Electrophilic addition to the double bond produces the most stable intermediate.
+    \item For conjugated dienes, the intermediate carbocation is a resonance stabilized allylic cation.
+    \item MECHANISM 15-1 1,2- and 1,4-Addition to a Conjugated Diene %环境定义
+    \begin{enumerate}
+        \item Protonation of one of the double bonds forms a resonance-stabilized allylic cation.
+        \item A nucleophile attacks at either electrophilic carbon atom.
+    \end{enumerate}
+
+    %Prob 15-6 Williamson Ether Synthesis
+
+\end{enumerate}
+
+\subsection{Kinetic versus Thermodynamic Control in the Addition of HBr to Buta-1,3-diene 20260305}
+
+\begin{enumerate}
+    \item \qty{-80}{\degreeCelsius} 1,2-addition (kinetic control), \qty{40}{\degreeCelsius} 1,4-addition (thermodynamic control)
+    \item The 1,2-addition will be the faster addition at any temperature (lower $ E_a $, secondary carbocation intermediate), but the 1,4-addition will be more stable (higher $ E_a $, but more stable, more substituted alkene product).
+    \item The first step of the reaction is kenetically controlled, the second step is thermodynamically controlled.
+    \item Thermodynamic control at \qty{40}{\degreeCelsius}
+    \item Kinetic control at \qty{-80}{\degreeCelsius}
+    \begin{example}% Prob 15-8 Br2 is added to buta-1,3-diene
+        hint: In many cases, an allylic carbocation is more stable than a bromonium ion.
+    \end{example}
+
+\end{enumerate}
+
+\subsection{Allylic Radicals 20260305}
+
+\begin{enumerate}
+    \item Allylic radicals are stabilized by resonance delocalization.
+    \item In a free-radical bromination of cyclohexene, substitution occurs entirely at the allylic position.
+    \item MECHANISM 15-2 Free-Radical Allylic Bromination
+    \begin{enumerate}
+        \item Initiation: Formation of radicals. 
+        \begin{note}
+            Cleavage should happen in nonpolar solvents. e.g. \ce{CCl4}
+        \end{note}
+    \end{enumerate}
+    \item Stability of free radicals: \chemfig{CH_3} < 1° < 2° < 3° < allylic < benzylic
+    \item Bromination Using N-Bromosuccinimide (NBS)
+    \begin{example}
+        prob 15-11
+    \end{example}
+
+\end{enumerate}
+
+\subsection{Molecular Orbitals of the Allylic System 20260305}
+
+\subsection{Sn2 Displacement Reactions of Allylic Halides and Tosylates 20260305}
+
+\begin{enumerate}
+    \item Allyl bromide reacts with nucleophiles by the mechanism about 40 times faster than n-propyl bromide. % Read carefully
+    \item Allylic halides are so reactive that they couple with Grignard and organolithium reagents
+\end{enumerate}

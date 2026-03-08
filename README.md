@@ -23,7 +23,7 @@
 
 This repository contains my personal study notes on **Organic Chemistry**.
 
-The notes are written in **LaTeX** and compiled using **XeLaTeX**, providing clear mathematical typesetting and well-structured scientific documentation.
+The notes are written in **LaTeX** and compiled using **pdfLaTeX**, providing clear mathematical typesetting and well-structured scientific documentation.
 
 These materials are continuously updated as part of ongoing study and learning.
 

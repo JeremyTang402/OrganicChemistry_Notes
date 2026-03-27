@@ -302,6 +302,7 @@
   labelfont={bf,color=ecolor}}
 \captionsetup[table]{skip=3pt}
 \captionsetup[figure]{skip=3pt}
+\captionsetup{labelsep=space}
 
 % list/itemize/enumerate setting
 \RequirePackage[shortlabels,inline]{enumitem}
@@ -319,7 +320,7 @@
   \definecolor{ecolor}{RGB}{0,120,2}%
 }{\relax}
 \ifdefstring{\ELEGANT@color}{cyan}{
-  \definecolor{ecolor}{RGB}{31,186,190}%
+  \definecolor{ecolor}{RGB}{16,100,112}%
 }{\relax}
 \ifdefstring{\ELEGANT@color}{blue}{
   \definecolor{ecolor}{RGB}{1,126,218}%

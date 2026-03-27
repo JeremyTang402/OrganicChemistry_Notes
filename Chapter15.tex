@@ -30,7 +30,7 @@
 
     \schemestart
         \chemname{\chemfig{=[:30]-[:-30]-[:30]=[:-30]}}{penta-1,4-diene}
-        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \arrow{->[2\ce{H2}][\ce{Pt}]}
         \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
     \schemestop
     $ \qquad \Delta H^\circ = \qty{-252}{\kilo\joule} $ \\
@@ -38,7 +38,7 @@
     \item For conjugated dienes, the heat of hydrogenation is less than the sum for the individual double bonds, showing that the conjugated diene has extra stability. \\ [1em]
     \schemestart
         \chemname{\chemfig{=[:30]-[:-30]=[:30]-[:-30]}}{\textit{trans}-penta-1,3-diene}
-        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \arrow{->[2\ce{H2}][\ce{Pt}]}
         \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
     \schemestop
     $ \qquad \Delta H^\circ = \qty{-225}{\kilo\joule} \quad \text{predicted}\qty{-242}{\kilo\joule} $ \\
@@ -46,7 +46,7 @@
     \item The heat of hydrogenation of penta-1,2-diene is larger than any of the other pentadienes. \\ [1em]
     \schemestart
         \chemname{\chemfig{C(-[:150]H)(-[:-150]H)=C=C(-[:30]H)-[:-30]CH_2CH_3}}{penta-1,2-diene (ethylallene)}
-        \arrow{->[\ce{H2}][\ce{Pt}]}
+        \arrow{->[2\ce{H2}][\ce{Pt}]}
         \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
     \schemestop
     $ \qquad \Delta H^\circ = \qty{-292}{\kilo\joule} $ \\
@@ -170,9 +170,160 @@ The extra stability of conjugated systems can be explained by examining their mo
 
 \subsection{Molecular Orbitals of the Allylic System 20260305}
 
-\subsection{Sn2 Displacement Reactions of Allylic Halides and Tosylates 20260305}
+\subsection{Electronic Configurations of the Allyl Radical, Cation, and Anion 20260305}
+
+\subsection{SN2 Displacement Reactions of Allylic Halides and Tosylates 20260305} % format
 
 \begin{enumerate}
     \item Allyl bromide reacts with nucleophiles by the mechanism about 40 times faster than n-propyl bromide. % Read carefully
     \item Allylic halides are so reactive that they couple with Grignard and organolithium reagents
 \end{enumerate}
+
+\subsection{The Diels–Alder Reaction 20260310}
+
+\begin{enumerate}
+    \item Otto Diels and Kurt Alder, alkenes and alkynes with electron-withdrawing groups (electron-deficient alkene, dienophile) add to conjugated dienes to form sixmembered rings (cyclohexene)
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.7\textwidth]{15.11_DA_Reaction.png}
+        \caption{The Diels–Alder Reaction}
+        \label{15.11_DA_Reaction}
+    \end{figure}
+    
+    \item a $ [4 + 2] $ cycloaddition
+\end{enumerate}
+
+\begin{mechanism}
+
+\end{mechanism}
+
+\subsubsection{Stereochemical Requirements of the Diels–AlderTransition State}
+
+\begin{enumerate}
+    \item \textit{s}-cis Conformation of the Diene
+    \begin{enumerate}
+        \item The diene must be in the \textit{s}-cis conformation to react.
+        \item Dienes with functional groups that hinder the \textit{s}-cis conformation react more slowly than butadiene. Dienes with functional groups that hinder the \textit{s}-trans conformation react faster than butadiene.
+    \end{enumerate}
+    
+    \item syn Stereochemistry
+    \begin{enumerate}
+        \item There is no opportunity for any of the substituents to change their stereochemical positions during the course of the reaction.
+    \end{enumerate}
+    
+    \item The Endo Rule
+    \begin{enumerate}
+        \item Dienophile has a pi bond in its electron-withdrawing group (as in a carbonyl group or a cyano group).
+        
+        \item Secondary overlap: an overlap of the \textit{p} orbitals of the electron-withdrawing group with the \textit{p} orbitals of C2 and C3 of the diene. 
+        
+        \item Secondary overlap helps to stabilize the transition state.
+        
+        \item This position is called the endo position, and This stereochemical preference for the electron-withdrawing substituent to appear in the endo position is called the endo rule.
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Diels–Alder Reactions Using Unsymmetrical Reagents}
+
+\begin{enumerate}
+    \item When the diene and dienophile are both unsymmetrically substituted, the DA reaction usually gives a single product (or a major product).
+    \item Predict the major product by considering how the substituents polarize the diene and the dienophile in their charge-separated resonance forms.
+    \item An electrondonating substituent (D) on the diene and an electron-withdrawing substituent (W) on the dienophile usually show either a 1,2- or 1,4-relationship in the product.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1.0\textwidth]{15.11_Unsymmetrical_1,4.png}
+        \caption{Formation of 1,4-product}
+        \label{15.11_Unsymmetrical_1,4}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.9\textwidth]{15.11_Unsymmetrical_1,2.png}
+        \caption{Formation of 1,2-product}
+        \label{15.11_Unsymmetrical_1,2}
+    \end{figure}
+    \item Remember the major product will not be a 1,3-product.
+\end{enumerate}
+
+\subsection{The Diels–Alder as an Example of a Pericyclic Reaction 20260310 20260312}
+
+\begin{enumerate}
+    \item Pericyclic reactions involve the concerted forming and breaking of bonds within a closed ring of interacting orbitals.
+    \item Conservation of orbital symmetry: the molecular orbitals of the reactants must flow smoothly into the MOs of the products without any drastic changes in symmetry.
+\end{enumerate}
+
+\subsubsection{Conservation of Orbital Symmetry in the Diels–Alder Reaction}
+
+\begin{enumerate}
+    \item Highest Occupied Molecular Orbital (HOMO), Lowest Unoccupied Molecular Orbital (LUMO)
+    \item The HOMO of butadiene has the correct symmetry (plus with plus and minus with minus) to overlap in phase with the LUMO of ethylene.
+    \item The bonding interactions stabilize the transition state and promote the concerted reaction. This favorable result predicts that the reaction is symmetry-allowed.
+    %pic
+\end{enumerate}
+
+\subsubsection{The “Forbidden” [2+2] Cycloaddition}
+
+\begin{enumerate}
+    \item 
+\end{enumerate}
+
+\subsubsection{Photochemical Induction of Cycloadditions}
+
+\begin{enumerate}
+    \item This higher orbital, formerly the LUMO, is now occupied: It is the new the HOMO*, the HOMO of the excited molecule.
+\end{enumerate}
+
+\begin{example}
+    Show that the [4 + 2] Diels–Alder reaction is photochemically forbidden. (In basic chemistry not react, but may react in different symmetry gouuxiang)
+\end{example}
+
+\subsection{Ultraviolet Absorption Spectroscopy 20260312}
+
+\begin{enumerate}
+    \item Ultraviolet (UV) spectroscopy detects the electronic transitions of \textbf{conjugated systems} and provides information about the length and structure of the conjugated part of a molecule
+    
+    \item UV spectroscopygiving more specialized information than does IR or NMR.
+\end{enumerate}
+
+\subsubsection{Spectral Region}
+
+\begin{enumerate}
+    \item jadsfkjas
+\end{enumerate}
+
+\subsubsection{Ultraviolet Light and Electronic Transitions}
+
+\begin{enumerate}
+    \item A photon with the right amount of energy can excite an electron from the bonding orbital ($ \pi $) to the antibonding orbital ($ \pi* $). This transition from a bonding orbital to a antibonding orbital is called a $ \pi \rightarrow \pi* $ transition.
+
+    \item In conjugated systems, there are electronic transitions with lower energies that correspond to wavelengths longer than \qty{200}{\nano\meter}.
+
+    \item In general, the energy difference between HOMO and LUMO decreases as the length of conjugation increases.
+\end{enumerate}
+
+\subsubsection{Obtaining an Ultraviolet Spectrum}
+
+\begin{enumerate}
+    \item The sample solution is placed in a quartz cell, and some of the solvent is placed in a reference cell.
+    \item Compare the amount of light transmitted through the sample (the sample beam) with the amount of light in the reference beam. Measure the intensity ratio of the reference ($ I_\text{r} $) beam compared with the sample beam ($ I_\text{s} $).
+    \item The absorbance, $ A $, of the sample at a particular wavelength is governed by \textit{Beer’s law}.
+    \begin{equation*}
+        A = \log{\frac{I_\text{r}}{I_\text{s}}} = \epsilon c l
+    \end{equation*}
+    \item Molar absorptivity ($ \epsilon $) is a measure of how strongly the sample absorbs light at that wavelength.
+    \item The molar absorptivity of onjugated system is about 5000 to 50000.  % unit?
+\end{enumerate}
+
+\subsubsection{Interpreting UV–Visible Spectra}
+
+\begin{enumerate}
+    \item buta-1,3-diene \qty{217}{\nano\meter}, cyclohexa-1,3-diene \qty{256}{\nano\meter}.
+    \item The Woodward-Fieser Rules % silde
+    \item the values of increase by about \qty{30}{\nano\meter} to \qty{40}{\nano\meter} for each double bond extending the conjugated system. Alkyl groups also increase the value of by about \qty{5}{\nano\meter} per alkyl group.
+\end{enumerate}
+
+\begin{example} % 15-37 15-29 15-340
+    
+\end{example}
+
+end of Ch 15
+

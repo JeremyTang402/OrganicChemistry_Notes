@@ -1,19 +1,19 @@
 % !TeX root = elegantnote-en.tex
 \section{Conjugated Systems, Orbital Symmetry, and Ultraviolet Spectroscopy}
 
-\subsection{Introduction: Conjugated Systems 20260303}
+\subsection{Introduction 20260303}
 
 \begin{enumerate}
-    \item Conjugated double bonds: separated by one single bond.
-    \item Isolated double bonds: separated by two or more single bonds.
-    \item Cummulated double bonds: allenes, adjacent to each other.
+    \item \textbf{Conjugated} double bonds: separated by one single bond.
+    \item \textbf{Isolated} double bonds: separated by two or more single bonds.
+    \item \textbf{Cummulated} double bonds: allenes, adjacent to each other.
     \item Conjugated double bonds are more stable than isolated double bonds.
 \end{enumerate}
 
 \subsection{Stabilities of Dienes 20260303}
 
 \begin{enumerate}
-    \item Using heats of hydrogenation to compare the relative stabilities of alkenes. The more stable the compound, the less exothermic during hydrogenation. \\ [1em]
+    \item Using \textbf{heats of hydrogenation} to compare the relative stabilities of alkenes. The more stable the compound, the less exothermic during hydrogenation. \\ [1em]
     \schemestart
         \chemname{\chemfig{=[:30]-[:-30]-[:30]-[:-30]}}{pent-1-ene}
         \arrow{->[\ce{H2}][\ce{Pt}]}
@@ -41,7 +41,7 @@
         \arrow{->[2\ce{H2}][\ce{Pt}]}
         \chemfig{-[:30]-[:-30]-[:30]-[:-30]}
     \schemestop
-    $ \qquad \Delta H^\circ = \qty{-225}{\kilo\joule} \quad \text{predicted}\qty{-242}{\kilo\joule} $ \\
+    $ \qquad \Delta H^\circ = \qty{-225}{\kilo\joule} \quad \text{predicted}\ \qty{-242}{\kilo\joule} $ \\
 
     \item The heat of hydrogenation of penta-1,2-diene is larger than any of the other pentadienes. \\ [1em]
     \schemestart
@@ -57,7 +57,7 @@
         \item Corresponding aklynes are less stable than alkenes.
         \item More substitution on double bonds or triple bonds increases the stability.
     \end{enumerate}
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=1.0\textwidth]{15.2_Relative_Stabilities.png}
         \caption{Relative Stabilities of Dienes and Alkynes}
@@ -68,26 +68,34 @@
 \begin{example}
     Rank each group of compounds in order of increasing heat of hydrogenation.
 
-    hexa-1,2-diene; hexa-1,3,5-triene; hexa-1,3-diene; hexa-1,4-diene; hexa-1,5-diene; hexa-2,4-diene
-
-    \textbf{Solution:} to be filled with chemfig
+    \begin{enumerate}[label=(\alph*)]
+        \item hexa-1,2-diene; hexa-1,3,5-triene; hexa-1,3-diene; hexa-1,4-diene; hexa-1,5-diene; hexa-2,4-diene
+        \item 
+    \end{enumerate}
+    
+    \textbf{Solution} \quad to be filled with chemfig
 \end{example}
 
 \begin{example}
     In a strongly acidic solution, cyclohexa-1,4-diene tautomerizes to cyclohexa-1,3-diene. Propose a mechanism for this rearrangement, and explain why it is energetically favorable.
 
-    \textbf{Solution:} to be filled with chemfig
+    \textbf{Solution} \quad to be filled with chemfig
 \end{example}
 
 \subsection{Molecular Orbital Picture of a Conjugated System 20260303 20260305}
-The extra stability of conjugated systems can be explained by examining their molecular orbitals.
+
+\begin{enumerate}
+    \item The extra stability in the conjugated molecule is called the \textbf{resonance energy} of the system, and can be explained by examining their \textbf{molecular orbitals}.
+\end{enumerate}
 
 \subsubsection{Structure and Bonding of Buta-1,3-diene}
 
 \begin{enumerate}
-    \item The \qty{1.48}{\angstrom} central carbon–carbon single bond is shorter than the \qty{1.54}{\angstrom} bonds typical of alkanes.
-    \item Electrons are delocalized over molecules, creating some pi overlap and pi bonding in the bond.
-    \begin{figure}[h]
+    \item Figure \ref{15.3_Buta-1,3-diene_Structure} shows the most stable conformation of buta-1,3-diene. This conformation is planar, with the \textit{p} orbitals on the two pi bonds aligned.
+    \item The \qty{1.48}{\angstrom} central \chemfig{C2-C3} single bond is shorter than the \qty{1.54}{\angstrom} carbon-carbon bonds typical of alkanes.
+    \item Electrons are \textbf{delocalized} over molecules, creating some pi overlap and pi bonding in the bond.
+    \item To represent the bonding in conjugated systems accurately, we must consider molecular orbitals that represent the entire conjugated pi system.
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.7\textwidth]{15.3_Buta-1,3-diene_Structure.png}
         \caption{Structure of Buta-1,3-diene}
@@ -96,12 +104,74 @@ The extra stability of conjugated systems can be explained by examining their mo
 \end{enumerate}
 
 \subsubsection{Constructing the Molecular Orbitals of Buta-1,3-diene}
-%----------%
+
 \begin{enumerate}
-    \item Molecular orbitals(MO)
-    \item bonding, nonbonding, and antibonding orbitals
-    \item energies symmetrically distributed
-    \item energy of isolated \textit{p} orbital in the middle of the MO energy levels
+    \item Molecular orbitals (MOs)
+    \begin{enumerate}
+        \item Bonding, nonbonding and antibonding orbitals
+        \item The plus and minus signs indicate the \textit{phase of the wave function}, \textbf{not electrical charges}.
+        \item \textbf{Constructive overlap}: lobes of same sign overlap, an important feature of all bonding molecular orbitals.
+        \item \textbf{Destructive overlap}: lobes of opposite sign overlap, cancelling the wave function and form a \textbf{node}.
+        \item Electrons have lower energy in the \textbf{bonding MO} than in the original \textit{p} orbitals, and higher energy in the \textbf{antibonding MO}.
+        \item Stable molecules tend to have filled bonding MOs and empty antibonding MOs.
+    \end{enumerate}
+
+    \begin{note}
+        Several important principles
+        \begin{enumerate}
+            \item Constructive overlap results in a bonding interaction; destructive overlap results in an antibonding interaction.
+            \item The number of MOs is always the same as the number of atomic orbitals used to form the MOs.
+            \item The MOs have energies that are symmetrically distributed above and below the energy of the starting \textit{p} orbitals. Half are bonding MOs, and half are antibonding MOs.
+        \end{enumerate}
+    \end{note}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth]{15.3_Ethylene_pi_MOs.png}
+        \caption{Pi Molecular Orbitals of Ethylene}
+        \label{15.3_Ethylene_pi_MOs}
+    \end{figure}
+
+    \item Constructing the Molecular Orbitals of Buta-1,3-diene
+    \begin{enumerate}
+        \item Four \textit{p} orbitals form four pi molecular orbitals, two bonding and two antibonding.
+        \item Simple straight-line representation of four orbitals.
+    \end{enumerate}
+    \item $\pi_1$ MO
+    \begin{enumerate}
+        \item Lowest energy.
+        \item All bonding interactions.
+        \item Exceptionally stable: three bonding interactions, and electrons are delocalized over four nuclei.
+    \end{enumerate}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\textwidth]{15.3_Pi1_MO_of_Buta-1,3-diene.png}
+        \caption{$\pi_1$ bonding MO of buta-1,3-diene}
+        \label{15.3_Pi1_MO_of_Buta-1,3-diene}
+    \end{figure}
+
+    \item $\pi_2$ MO
+    \begin{enumerate}
+        \item One vertical node in the center.
+        \item Two bonding interactions and one antibonding interaction.
+        \item A bonding orbital ($2\ \text{bonding} - 1\ \text{antibonding} = 1\ \text{bonding}$).
+        \item Higher in energy and weaker than $\pi_1$ MO.
+    \end{enumerate}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\textwidth]{15.3_Pi2_MO_of_Buta-1,3-diene.png}
+        \caption{$\pi_2$ bonding MO of buta-1,3-diene}
+        \label{15.3_Pi2_MO_of_Buta-1,3-diene}
+    \end{figure}
+
+    \item $\pi_3^*$ MO
+    \begin{enumerate}
+        \item Two nodes.
+        \item One bonding interactions and two antibonding interaction.
+    \end{enumerate}
+%----------%
     \item The bonding MOs are filled and the antibonding MOs are vacant.
     \item The average energy of the electrons is slightly lower in butadiene. This lower energy is the resonance stabilization of the conjugated diene.
     \item Conformations of 1,3-Butadiene: \textit{s}-trans and \textit{s}-cis, the former, less crowded, is more stable than the latter.
@@ -116,7 +186,7 @@ The extra stability of conjugated systems can be explained by examining their mo
     \item allyl group: \chemfig{CH_2=CH-CH_2-}
     \item Allylic cations and radicals are stabilized by delocalization.
     \item Double bond interact with cations(exchange). %Prob 15-4 Resonance
-    \item Stability of carbocations: \chemfig{H_3C^+} < 1° < 2°, allyl < 3°, substituted allylic
+    \item Stability of carbocations: \ce{H3C^+} < 1° < 2°, allyl < 3°, substituted allylic
 \end{enumerate}
 
 \subsection{1,2- and 1,4-Addition to Conjugated Dienes 20260305}
@@ -183,7 +253,7 @@ The extra stability of conjugated systems can be explained by examining their mo
 
 \begin{enumerate}
     \item Otto Diels and Kurt Alder, alkenes and alkynes with electron-withdrawing groups (electron-deficient alkene, dienophile) add to conjugated dienes to form sixmembered rings (cyclohexene)
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.7\textwidth]{15.11_DA_Reaction.png}
         \caption{The Diels–Alder Reaction}
@@ -229,13 +299,13 @@ The extra stability of conjugated systems can be explained by examining their mo
     \item When the diene and dienophile are both unsymmetrically substituted, the DA reaction usually gives a single product (or a major product).
     \item Predict the major product by considering how the substituents polarize the diene and the dienophile in their charge-separated resonance forms.
     \item An electrondonating substituent (D) on the diene and an electron-withdrawing substituent (W) on the dienophile usually show either a 1,2- or 1,4-relationship in the product.
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=1.0\textwidth]{15.11_Unsymmetrical_1,4.png}
         \caption{Formation of 1,4-product}
         \label{15.11_Unsymmetrical_1,4}
     \end{figure}
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.9\textwidth]{15.11_Unsymmetrical_1,2.png}
         \caption{Formation of 1,2-product}

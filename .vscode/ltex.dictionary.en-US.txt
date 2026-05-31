@@ -11,3 +11,7 @@ thioester
 thiol
 Componds
 electrophile
+nitriles
+halides
+lactone
+lactones

@@ -1,4 +1,4 @@
-\documentclass[en,blue,12pt,normal]{elegantnote}
+\documentclass[en,blue,10pt,normal]{elegantnote}
 \title{Organic Chemistry}
 
 \author{19Q24119}
@@ -8,19 +8,16 @@
 
 \usepackage{array}
 \usepackage{siunitx}
-\usepackage{mhchem}
 \usepackage{chemfig}
+\usepackage{chemformula}
 \usepackage{float}
 
 \setchemfig{atom sep=2em}
 
 \let\oldchemname\chemname
-\renewcommand{\chemname}[2]{\oldchemname{#1}{\small #2}}
+\renewcommand{\chemname}[2]{\oldchemname{#1}{\small\shortstack[C]{#2}}}
 
-\let\oldce\ce
-\renewcommand{\ce}[1]{\text{\oldce{#1}}}
-
-%\renewcommand*\printatom[1]{\text{#1}}
+\renewcommand*\printatom[1]{\ch{#1}}
 
 \DeclareSIUnit\angstrom{\text{Å}}
 

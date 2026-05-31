@@ -4,7 +4,14 @@
 \subsection{Introduction 20260519}
 
 \begin{enumerate}
-    \item The most important acid derivatives are esters, amides, and nitriles. Acid halides and anhydrides are also included.
+    \item Carboxylic acid derivatives are compounds with functional groups that can be converted to carboxylic acids by a simple acidic or basic hydrolysis.
+    \item The most important acid derivatives are esters, amides, and nitriles. Acid halides and anhydrides are also included. \\ [1em]
+    \chemname{\chemfig{R-C(=[2]O)-X}}{acid halide} \quad 
+    \chemname{\chemfig{R-C(=[2]O)-O-C(=[2]O)-R}}{anhydride} \quad
+    \chemname{\chemfig{R-C(=[2]O)-O-R'}}{ester} \quad 
+    \chemname{\chemfig{R-C(=[2]O)-NH_2}}{amide} \quad 
+    \chemname{\chemfig{R-C~N}}{nitrile} \\
+    \item Esters and amides are commonly found in nature.
 \end{enumerate}
 
 \subsection{Structure and Nomenclature of Acid Derivatives 20260519 20260521}
@@ -12,15 +19,36 @@
 \subsubsection{Esters of Carboxylic Acids}
 
 \begin{enumerate}
-    \item Esters are carboxylic acid derivatives in which the hydroxyl group (\chemfig{-OH}) is replaced by an alkoxy group (\chemfig{-OR}).
-    \item Esters can be formed by the Fischer esterification of an acid with an alcohol.
-    \item The names of esters consist of two words that reflect their composite structure. The first word is derived from the \textit{alkyl} group of the alcohol, and the second word from the \textit{carboxylate} group of the carboxylic acid.
+    \item \textbf{Esters} are carboxylic acid derivatives in which the hydroxyl group (\raisebox{0.5ex}{\chemfig{-OH}}) is replaced by an alkoxy group (\raisebox{0.5ex}{\chemfig{-OR}}).
+    \item Esters can be formed by the Fischer esterification of an acid with an alcohol, excess alcohol is used.
+    $$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
+    + \quad
+    \chemname{\chemfig{R'-OH}}{alcohol} \quad 
+    \ch{<=>[ H^+]} \quad
+    \chemname{\chemfig{R-C(=[2]O)-OR'}}{ester} \quad 
+    + \quad 
+    \ch{H2O}$$
+    \item Esters are named as \textit{alkyl carboxylates}. The first word is derived from the \textit{alkyl} group of the alcohol, and the second word from the \textit{carboxylate} group of the carboxylic acid. 
+    \item The IUPAC name is derived from the IUPAC names of the alkyl group and the carboxylate, and the common name is derived from the common names of each.
+    $$\chemname{\chemfig{CH_3CH_2-OH}}{ethanol \\ ethyl alcohol} \quad
+    + \quad
+    \chemname{\chemfig{HO-C(=[2]O)-OH}}{ethanoic acid \\ acetic acid} \quad 
+    \ch{<=>[ H^+]} \quad
+    \chemname{\chemfig{CH_3CH_2-O-C(=[2]O)-CH_3}}{ethyl ethanoate \\ ethyl acetate} \quad 
+    + \quad 
+    \ch{H2O}$$
+    \chemname{\chemfig{{(CH_3)_2}CH-O-C(=[2]O)-H}}{1-methylethyl methanoate \\ isopropyl formate} \quad
+    \chemname{\chemfig{[:-30]*6(-=-(-O-C(=[2]O)-*6(-=-=-=))=-=)}}{phenyl benzoate \\ phenyl benzoate} \quad
+    \chemname{\chemfig{CH_3-O-C(=[2]O)-CH_2-*6(-=-=-=)}}{methyl 2-phenylethanoate \\ methyl phenylacetate} \\ [1em]
+    \chemname{\chemfig{Ph-CH_2-O-C(=[2]O)-CH(-[2]CH_3)-CH_3}}{benzyl 2-methylpropanoate \\ benzyl isobutyrate} \quad
+    \chemname{\chemfig{CH_3-O-C(=[2]O)-*5(-----)}}{methyl cyclopentanecarboxylate \\ methyl cyclopentanecarboxylate} \quad
+    \chemname{\chemfig{[:-30]*6(---(-O-C(=[2]O)-H)---)}}{cyclohexyl methanoate \\ cyclohexyl formate} \\ [1em] %----------%
     \item Lactones
     \begin{enumerate}
-        \item Cyclic esters are called \textbf{lactones}.A lactone is formed from an openchain hydroxy acid in which the hydroxyl group has reacted with the acid group to form an ester.
+        \item Cyclic esters are called \textbf{lactones}. A lactone is formed from an openchain hydroxy acid in which the hydroxyl group has reacted with the acid group to form an ester.
         \item The IUPAC names of lactones are derived by adding the term \textit{lactone} at the end of the name of the parent acid. (open the ring and name it.)
         \item The common names of lactones are formed by changing the \textit{-ic} acid ending of the hydroxy acid to \textit{-olactone}.
-
+        
     \end{enumerate}
 \end{enumerate}
 
@@ -44,7 +72,7 @@
 \begin{enumerate}
     \item \textbf{Nitriles} contain the \textbf{cyano group}, \chemfig{-C~N}.
     \item They hydrolyze to give carboxylic acids and can be synthesized by dehydration of amides.
-    \item Hydrolysis to an acid (\ce{H2O}), Synthesis from an acid (\ce{POCl3}).
+    \item Hydrolysis to an acid (\ch{H2O}), Synthesis from an acid (\ch{POCl3}).
     \item Both the carbon atom and the nitrogen atom of the cyano group are \textit{sp} hybridized, and the \chemfig{R-C~N} bond angle is \qty{180}{\degree} (linear). The structure is similar to that of a terminal alkyne, except that the nitrogen atom  has a lone pair of electrons.
     \item Common names of nitriles begin with the common name of the acid, and replace the suffix \textit{-ic acid} with the suffix \textit{-onitrile}. The IUPAC name is constructed from the alkane name, with the suffix \textit{-nitrile} added.
 \end{enumerate}
@@ -224,7 +252,7 @@
 \end{mechanism}
 
 \begin{example} % 21-16
-    Suppose we have some optically pure (\textit{R})-2-butyl acetate that has been “labeled” with the heavy \ce{^18O} isotope at one oxygen atom as shown.
+    Suppose we have some optically pure (\textit{R})-2-butyl acetate that has been “labeled” with the heavy \ch{^18O} isotope at one oxygen atom as shown.
 \end{example}
 
 \subsubsection{Hydrolysis of Amides}
@@ -301,7 +329,7 @@
 \subsection{Summary of the Chemistry of Acid Chlorides 20260526}
 
 \begin{enumerate}
-    \item Synthesis of Acid Chlorides: Acid chlorides (acyl chlorides) are synthesized from the corresponding carboxylic acids, \ce{SOCl2} and \ce{COCl2} most convenient.
+    \item Synthesis of Acid Chlorides: Acid chlorides (acyl chlorides) are synthesized from the corresponding carboxylic acids, \ch{SOCl2} and \ch{COCl2} most convenient.
     \item Reactions of Acid Chlorides
     \item Friedel–Crafts Acylation of Aromatic Rings
 \end{enumerate}
@@ -382,31 +410,31 @@
 
     \textbf{SOLUTION} \quad 
     
-    \textbf{MS} 113-odd-\ce{N} 113 - 68 = 45 
+    \textbf{MS} 113-odd-\ch{N} 113 - 68 = 45 
 
-    \textbf{IR} 3000 medium \ce{-NH2}?, 2200 triple bond, 1750 carbonyl, 1200 \ce{C-O}
+    \textbf{IR} 3000 medium \ch{-NH2}?, 2200 triple bond, 1750 carbonyl, 1200 \ch{C-O}
 
-    \textbf{C NMR} 5 \ce{C}, 5 * 12 = 60
+    \textbf{C NMR} 5 \ch{C}, 5 * 12 = 60
 
     till now, C5 N O2 sum = 106, so 7H
 
-    \textbf{H NMR} one single \ce{-CH2}, one \ce{-CH2} and \ce{-CH3} together (split).
+    \textbf{H NMR} one single \ch{-CH2}, one \ch{-CH2} and \ch{-CH3} together (split).
 
-    \chemfig{N~C-CH_2-C(=[2]O)-O-CH_2-CH_3} \ce{-OEt} = 45
+    \chemfig{N~C-CH_2-C(=[2]O)-O-CH_2-CH_3} \ch{-OEt} = 45
 \end{example}
 
 \begin{example} % 21-65
-    An unknown compound gives the NMR, IR, and mass spectra shown next. Propose a structure, and show how it is  consistent with the observed absorptions. Show fragmentations that account for the prominent ion at \textbf{m/z} 69 and the smaller peak at \textbf{m/z} 99.
+    An unknown compound gives the NMR, IR, and mass spectra shown next. Propose a structure, and show how it is  consistent with the observed absorptions. Show fragmentations that account for the prominent ion at \textit{m/z} 69 and the smaller peak at \textit{m/z} 99.
 
     \textbf{SOLUTION} \quad 
 
-    \textbf{MS} 114 - 69 = 45(\ce{-OEt}), 114 - 99 = 13(\ce{-CH3}), no benzyl(91)
+    \textbf{MS} 114 - 69 = 45(\ch{-OEt}), 114 - 99 = 13(\ch{-CH3}), no benzyl(91)
 
-    \textbf{IR} 3000 no \ce{-OH} \ce{-NH2} 1700-1600 \chemfig{C=C-C(=[2]O)} classic
+    \textbf{IR} 3000 no \ch{-OH} \ch{-NH2} 1700-1600 \chemfig{C=C-C(=[2]O)} classic
 
-    \textbf{C NMR} 5 \ce{C}? 6?(because of 5 kind of H)
+    \textbf{C NMR} 5 \ch{C}? 6?(because of 5 kind of H)
     
-    \textbf{H NMR} 6-7 H of \ce{C=C} beside it is \ce{-CH3}, the rest is \ce{-OEt}.
+    \textbf{H NMR} 6-7 H of \ch{C=C} beside it is \ch{-CH3}, the rest is \ch{-OEt}.
     
     notice: E not Z % 耦合常数显示为反式构象
 
@@ -414,7 +442,7 @@
 \end{example}
 
 \begin{example} % 21-66
-    The IR spectrum, \ce{^13C} NMR spectrum, and \ce{^1H} NMR spectrum of an unknown compound (\ce{C6H8O3}) appear next.  Determine the structure, and show how it is consistent with the spectra.
+    The IR spectrum, \ch{^13C} NMR spectrum, and \ch{^1H} NMR spectrum of an unknown compound (\ch{C6H8O3}) appear next.  Determine the structure, and show how it is consistent with the spectra.
 
     \textbf{SOLUTION} \quad
 
@@ -422,9 +450,9 @@
 
     \textbf{C NMR} one over 200
     
-    \textbf{H NMR} 3:1:1:1:2 the highest one not splitted, \ce{-CH3} to \ce{C=O}.
+    \textbf{H NMR} 3:1:1:1:2 the highest one not splitted, \ch{-CH3} to \ch{C=O}.
 \end{example}
 
 \begin{example} % 21-67
-    An unknown compound of molecular formula \ce{C5H9NO} gives the IR and NMR spectra shown here. The broad NMR peak at $\delta 7.55$ disappears when the sample is shaken with \ce{D2O}. Propose a structure, and show how it is consistent with the absorptions in the spectra.
+    An unknown compound of molecular formula \ch{C5H9NO} gives the IR and NMR spectra shown here. The broad NMR peak at $\delta 7.55$ disappears when the sample is shaken with \ch{D2O}. Propose a structure, and show how it is consistent with the absorptions in the spectra.
 \end{example}

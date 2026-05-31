@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.4)  31 MAY 2026 14:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.4)  31 MAY 2026 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -637,10 +637,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks40
 ) (d:/texlive/2025/texmf-dist/tex/latex/extsizes/extsizes.sty
 Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
- (d:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 54.
+ (d:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 LaTeX Info: Command `\normalsize' is already robust on input line 56.
 LaTeX Info: Redefining \small on input line 58.
 LaTeX Info: Redefining \footnotesize on input line 69.
@@ -650,6 +648,7 @@ LaTeX Info: Redefining \large on input line 82.
 LaTeX Info: Redefining \Large on input line 83.
 LaTeX Info: Redefining \LARGE on input line 84.
 LaTeX Info: Redefining \huge on input line 85.
+LaTeX Info: Redefining \Huge on input line 86.
 )) (d:/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip86
@@ -952,58 +951,25 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count525
 \l__siunitx_unit_position_int=\count526
 \l__siunitx_unit_total_int=\count527
-) (d:/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
-Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
- (d:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
-) (d:/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count528
-\g__chemgreek_tmpa_int=\count529
-)
-\l__mhchem_ce_distanceFromLastComma_int=\count530
-\__mhchem_arrow_extPgfLength_skip=\skip102
-\mhchem@minispace@tmp=\skip103
-\mhchem@minibackspace@tmp=\skip104
-\mhchem@bondwidth=\skip105
-\mhchem@bondheight=\skip106
-\mhchem@smallbondwidth@tmpA=\skip107
-\mhchem@smallbondwidth@tmpB=\skip108
-\mhchem@smallbondwidth=\skip109
-\mhchem@bondtmp@minussidebearingleft=\skip110
-\mhchem@bondtmp@minussidebearingright=\skip111
-\l__mhchem_option_version_int=\count531
-\mhchem@option@minusmathsidebearingleft=\dimen322
-\mhchem@option@minusmathsidebearingright=\dimen323
-\mhchem@option@minustextsidebearingleft=\dimen324
-\mhchem@option@minustextsidebearingright=\dimen325
-
-
-Package mhchem Warning: You did not specify a 'version' option for the mhchem
-(mhchem)                package. Please write \usepackage[version=4]{mhchem}
-(mhchem)                in your preamble (or any lower number for
-(mhchem)                compatibility mode), because you might get slightly
-(mhchem)                different output with the same input in future versions.
-
 ) (d:/texlive/2025/texmf-dist/tex/generic/chemfig/chemfig.sty (d:/texlive/2025/texmf-dist/tex/generic/chemfig/chemfig.tex (d:/texlive/2025/texmf-dist/tex/generic/simplekv/simplekv.tex
 Package: simplekv 2025/06/15 v0.32 Simple keyval package (CT)
 ) (d:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen326
-\pgfarrowlength=\dimen327
-\pgfarrowwidth=\dimen328
-\pgfarrowlinewidth=\dimen329
+\pgfarrowinset=\dimen322
+\pgfarrowlength=\dimen323
+\pgfarrowwidth=\dimen324
+\pgfarrowlinewidth=\dimen325
 )
-\CF_cnt_atomgroup=\count532
-\CF_cnt_group=\count533
-\CF_cnt_atom=\count534
-\CF_cnt_cycle=\count535
-\CF_cnt_cyclebonds=\count536
-\CF_cnt_compound=\count537
-\CF_dim=\dimen330
-\CF_turnangle=\dimen331
-\CF_arrowsize=\dimen332
-\CF_zero=\dimen333
+\CF_cnt_atomgroup=\count528
+\CF_cnt_group=\count529
+\CF_cnt_atom=\count530
+\CF_cnt_cycle=\count531
+\CF_cnt_cyclebonds=\count532
+\CF_cnt_compound=\count533
+\CF_dim=\dimen326
+\CF_turnangle=\dimen327
+\CF_arrowsize=\dimen328
+\CF_zero=\dimen329
 \CF_box=\box81
 \CF_boxstuff=\box82
 \CF_testbox=\box83
@@ -1011,43 +977,123 @@ File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \CF_substtoks=\toks58
 \CF_harrow_boxup=\box85
 \CF_harrow_boxdown=\box86
-\CF_hreact_cnt=\count538
+\CF_hreact_cnt=\count534
 )
 Package: chemfig 2025/10/30 v1.71 Draw molecule with an easy syntax (CT)
+) (d:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+) (d:/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty (d:/texlive/2025/texmf-dist/tex/latex/xfrac/xfrac.sty
+Package: xfrac 2024-06-04 Split-level fractions
+\l__xfrac_slash_box=\box87
+\l__xfrac_tmp_box=\box88
+\l__xfrac_denominator_bot_sep_dim=\dimen330
+\l__xfrac_numerator_bot_sep_dim=\dimen331
+\l__xfrac_numerator_top_sep_dim=\dimen332
+\l__xfrac_slash_left_sep_dim=\dimen333
+\l__xfrac_slash_right_sep_dim=\dimen334
+\l__xfrac_slash_left_muskip=\muskip23
+\l__xfrac_slash_right_muskip=\muskip24
+
+LaTeX template Info: Declaring template type 'xfrac' taking 3 argument(s) on
+(template)           line 100.
+
+
+LaTeX template Info: Declaring instance 'cmr' of type xfrac on line 392.
+
+
+LaTeX template Info: Declaring instance 'cmss' of type xfrac on line 392.
+
+
+LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
+
+) (d:/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip102
+\L@UnitsRaiseTextstyle=\skip103
+\L@UnitsRaiseScriptstyle=\skip104
+)
+Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions (CN)
+\l__chemformula_tmpa_dim=\dimen335
+\l__chemformula_tmpb_dim=\dimen336
+\l__chemformula_tmpc_dim=\dimen337
+\l__chemformula_tmpa_int=\count535
+\l__chemformula_tmpb_int=\count536
+\l__chemformula_tmpc_int=\count537
+\l__chemformula_tmpa_box=\box89
+\l__chemformula_tmpb_box=\box90
+\l__chemformula_arrow_length_dim=\dimen338
+\l__chemformula_arrow_label_height_dim=\dimen339
+\l__chemformula_arrow_label_offset_dim=\dimen340
+\l__chemformula_arrow_minimum_length_dim=\dimen341
+\l__chemformula_arrow_shortage_dim=\dimen342
+\l__chemformula_arrow_offset_dim=\dimen343
+\l__chemformula_arrow_yshift_dim=\dimen344
+\l__chemformula_radical_radius_dim=\dimen345
+\l__chemformula_radical_hshift_dim=\dimen346
+\l__chemformula_radical_vshift_dim=\dimen347
+\l__chemformula_radical_space_dim=\dimen348
+\l__chemformula_arrow_head_dim=\dimen349
+\l__chemformula_name_dim=\dimen350
+\l__chemformula_adduct_space_dim=\dimen351
+\l__chemformula_charge_shift_dim=\dimen352
+\l__chemformula_subscript_shift_dim=\dimen353
+\l__chemformula_superscript_shift_dim=\dimen354
+\l__chemformula_subscript_dim=\dimen355
+\l__chemformula_superscript_dim=\dimen356
+\l__chemformula_bond_dim=\dimen357
+\l__chemformula_bond_space_dim=\dimen358
+\l__chemformula_elspec_pair_distance_dim=\dimen359
+\l__chemformula_elspec_pair_line_length_dim=\dimen360
+\l__chemformula_elspec_pair_width_dim=\dimen361
+\l__chemformula_kroegervink_positive_radius_dim=\dimen362
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen363
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen364
+\l__chemformula_kroegervink_positive_space_dim=\dimen365
+\l__chemformula_stoich_space_skip=\skip105
+\l__chemformula_math_space_skip=\skip106
+\l__chemformula_additions_symbol_space_skip=\skip107
+\l__chemformula_count_tokens_int=\count538
+\g__chemformula_lewis_int=\count539
+\l__chemformula_arrow_arg_i_box=\box91
+\l__chemformula_arrow_arg_ii_box=\box92
+\l__chemformula_superscript_box=\box93
+\l__chemformula_subscript_box=\box94
+\l__chemformula_plus_space_skip=\skip108
+\l__chemformula_minus_space_skip=\skip109
 ) (d:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count539
+\c@float@type=\count540
 \float@exts=\toks59
-\float@box=\box87
+\float@box=\box95
 \@float@everytoks=\toks60
-\@floatcapt=\box88
+\@floatcapt=\box96
 )
-\@quotelevel=\count540
-\@quotereset=\count541
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 27.
+\@quotelevel=\count541
+\@quotereset=\count542
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 24.
  (./elegantnote-en.aux (./Chapter1.aux) (./Chapter15.aux) (./Chapter16.aux) (./Chapter17.aux) (./Chapter18.aux) (./Chapter19.aux) (./Chapter20.aux) (./Chapter21.aux) (./Chapter22.aux))
 \openout1 = `elegantnote-en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (d:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1063,9 +1109,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'elegantnote-en.bbl' not found.
 
 No file elegantnote-en.bbl.
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
-Package hyperref Info: Link coloring ON on input line 27.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+Package hyperref Info: Link coloring ON on input line 24.
 (./elegantnote-en.out) (./elegantnote-en.out)
 \@outlinefile=\write5
 \openout5 = `elegantnote-en.out'.
@@ -1094,12 +1140,12 @@ Package caption Info: End \AtBeginDocument code.
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1109,22 +1155,19 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count542
+\c@lstlisting=\count543
 (d:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 27.
-
-Package chemgreek Info: Activating mapping `fontspec' on line 27.
-
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 24.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 29.
+(Font)              scaled to size 17.28pt on input line 26.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 29.
+(Font)              scaled to size 17.28pt on input line 26.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 29.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 29.
+(Font)              scaled to size 10.0pt on input line 26.
 File: ./image/logo-Chem.png Graphic file (type bmp)
 <./image/logo-Chem.png>
  [1
@@ -1134,54 +1177,44 @@ File: ./image/logo-Chem.png Graphic file (type bmp)
 
  (./Chapter1.tex
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 2.
+(Font)              scaled to size 14.4pt on input line 2.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 2.
-) [2
+(Font)              scaled to size 14.4pt on input line 2.
+)
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 30.
+ [2
 
 ]
 \openout2 = `Chapter15.aux'.
 
  (./Chapter15.tex
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
+(Font)              scaled to size 12.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
+(Font)              scaled to size 10.0pt on input line 7.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
+(Font)              scaled to size 9.0pt on input line 17.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
+(Font)              scaled to size 6.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 20.
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
+(Font)              scaled to size 5.0pt on input line 18.
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 18.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 27.
+(Font)              scaled to size 9.0pt on input line 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 16--29
 
  []
 
 
-Overfull \hbox (5.66196pt too wide) in paragraph at lines 38--45
-[]$ \OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 H[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 225 [] []  \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 242 []$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--45
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--53
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 
  []
 
@@ -1192,13 +1225,9 @@ File: ./image/15.2_Relative_Stabilities.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (9.21921pt too wide) in paragraph at lines 85--85
-|[]\TU/texgyretermes(0)/b/n/14.4 Molecular Orbital Picture of a Conjugated System 20260303 20260305| 
- []
-
 File: ./image/15.3_Buta-1,3-diene_Structure.png Graphic file (type bmp)
 <./image/15.3_Buta-1,3-diene_Structure.png>
-[4]
+ [4]
 File: ./image/15.3_Ethylene_pi_MOs.png Graphic file (type bmp)
 <./image/15.3_Ethylene_pi_MOs.png>
  [5]
@@ -1207,119 +1236,107 @@ File: ./image/15.3_Pi1_MO_of_Buta-1,3-diene.png Graphic file (type bmp)
 File: ./image/15.3_Pi2_MO_of_Buta-1,3-diene.png Graphic file (type bmp)
 <./image/15.3_Pi2_MO_of_Buta-1,3-diene.png>
  [6] [7]
-Overfull \hbox (16.18881pt too wide) in paragraph at lines 245--245
-|[]\TU/texgyretermes(0)/b/n/14.4 SN2 Displacement Reactions of Allylic Halides and Tosylates 20260305| 
- []
-
-[8]
 File: ./image/15.11_DA_Reaction.png Graphic file (type bmp)
 <./image/15.11_DA_Reaction.png>
-
-Overfull \hbox (3.57611pt too wide) in paragraph at lines 255--261
-[]\TU/texgyretermes(0)/m/n/12 Otto Diels and Kurt Alder, alkenes and alkynes with electron-withdrawing groups (electron-
+ [8]
+Overfull \hbox (5.82549pt too wide) in paragraph at lines 277--278
+[]\TU/texgyretermes(0)/m/n/10 This position is called the endo position, and This stereochemical preference for the electron-withdrawing
  []
 
-[9]
 File: ./image/15.11_Unsymmetrical_1,4.png Graphic file (type bmp)
 <./image/15.11_Unsymmetrical_1,4.png>
+
+Overfull \hbox (9.1439pt too wide) in paragraph at lines 286--292
+[]\TU/texgyretermes(0)/m/n/10 An electrondonating substituent (D) on the diene and an electron-withdrawing substituent (W) on the dienophile
+ []
+
 File: ./image/15.11_Unsymmetrical_1,2.png Graphic file (type bmp)
 <./image/15.11_Unsymmetrical_1,2.png>
-
-Overfull \hbox (8.48413pt too wide) in paragraph at lines 321--322
-[]\TU/texgyretermes(0)/m/n/12 Conservation of orbital symmetry: the molecular orbitals of the reactants must flow smoothly
- []
-
-[10]
-Overfull \hbox (0.74814pt too wide) in paragraph at lines 352--353
-\TU/texgyretermes(0)/m/n/12 and provides information about the length and structure of the conjugated part of a molecule 
- []
-
-[11]) [12]
+[9] [10]) [11]
 \openout2 = `Chapter16.aux'.
 
  (./Chapter16.tex
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
+(Font)              scaled to size 7.0pt on input line 20.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 20.
- [13
+(Font)              scaled to size 5.0pt on input line 20.
+ [12
 
 
 
-] [14] [15] [16] [17] [18] [19]) [20]
+] [13] [14] [15]
+Overfull \hbox (3.01888pt too wide) in paragraph at lines 237--238
+[]\TU/texgyretermes(0)/m/n/10 Diamond has a crystalline structure containing tetrahedral carbon atoms linked together in a three-dimensional
+ []
+
+[16]) [17]
 \openout2 = `Chapter17.aux'.
 
  (./Chapter17.tex
 File: ./image/17.1_Sigma_Complex.png Graphic file (type bmp)
 <./image/17.1_Sigma_Complex.png>
- [21
+ [18
 
 
 
-] [22] [23]
-Overfull \hbox (2.4721pt too wide) in paragraph at lines 138--139
-[][][]\TU/texgyretermes(0)/b/n/12 Example 17.3 [][]\TU/texgyretermes(0)/m/n/12 Styrene (vinylbenzene) undergoes electrophilic aromatic substitution much faster
- []
-
+] [19]
 File: ./image/17.6_Activating_Group_op.png Graphic file (type bmp)
 <./image/17.6_Activating_Group_op.png>
+ [20]
+Overfull \hbox (3.77887pt too wide) in paragraph at lines 174--175
+[]\TU/texgyretermes(0)/m/n/10 An electron-donating substituent activates primarily the ortho and para positions, and an electron-withdrawing
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24]
 File: ./image/17.6_Deactivating_Group_m.png Graphic file (type bmp)
 <./image/17.6_Deactivating_Group_m.png>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (27.0176pt too wide) in paragraph at lines 186--186
-|[]\TU/texgyretermes(0)/b/n/14.4 Halogen Substituents: Deactivating, but Ortho, Para-Directing 20260331| 
- []
 
 File: ./image/17.6_Directing_Effects.png Graphic file (type bmp)
 <./image/17.6_Directing_Effects.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26]
+[21] [22]
 File: ./image/17.6_Substituents_Strength.png Graphic file (type bmp)
 <./image/17.6_Substituents_Strength.png>
- [27]
 File: ./image/17.10_Friedel–Crafts_Alkylation.png Graphic file (type bmp)
 <./image/17.10_Friedel–Crafts_Alkylation.png>
- [28]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
 File: ./image/17.10_Friedel–Crafts_Acylation.png Graphic file (type bmp)
 <./image/17.10_Friedel–Crafts_Acylation.png>
- [29] [30]
-Overfull \hbox (8.28012pt too wide) in paragraph at lines 402--405
-[][][]\TU/texgyretermes(0)/b/n/12 Mechanism 17.8 [][]\TU/texgyretermes(0)/m/n/12 Nucleophilic Aromatic Substitution (Benzyne Mechanism) The benzyne mech-
+ [24] [25]
+Overfull \hbox (7.52219pt too wide) in paragraph at lines 402--405
+[][][]\TU/texgyretermes(0)/b/n/10 Mechanism 17.8 [][]\TU/texgyretermes(0)/m/n/10 Nucleophilic Aromatic Substitution (Benzyne Mechanism) The benzyne mechanism (elimination–
  []
 
-
-Overfull \hbox (2.65211pt too wide) in paragraph at lines 429--430
-[]\TU/texgyretermes(0)/m/n/12 Fisrt-Order Reactions: First-order nucleophilic substitution requires ionization of the halide
+[26]
+Overfull \hbox (7.7047pt too wide) in paragraph at lines 478--479
+[][][]\TU/texgyretermes(0)/b/n/10 Example 17.16 [][]\TU/texgyretermes(0)/m/it/10 Bisphenol \TU/texgyretermes(0)/m/n/10 A is an important component of many polymers, including polycarbonates, polyurethanes,
  []
 
-[31] [32]) [33]
+[27]) [28]
 \openout2 = `Chapter18.aux'.
 
- (./Chapter18.tex [34
+ (./Chapter18.tex [29
 
 
 
-] [35] [36] [37] [38] [39] [40] [41]
-Overfull \hbox (10.59613pt too wide) in paragraph at lines 344--351
-[]\TU/texgyretermes(0)/m/n/12 oxime hydrazine hydrazone phenylhydrazine phenylhydrazone semicarbazide semicarbazone 
+] [30] [31]
+Overfull \hbox (14.48012pt too wide) in paragraph at lines 190--190
+|[]\TU/texgyretermes(0)/b/n/12 Reactions of Ketones and Aldehydes: Introduction to Nucleophilic Addition 20260414| 
  []
 
-[42]
-Overfull \hbox (9.38416pt too wide) in paragraph at lines 412--413
-[]\TU/texgyretermes(0)/m/n/12 The \TU/texgyretermes(0)/b/n/12 Tollens test \TU/texgyretermes(0)/m/n/12 involves adding a solution of silver–ammonia complex (the \TU/texgyretermes(0)/b/n/12 Tollens reagent\TU/texgyretermes(0)/m/n/12 )
+[32] [33]
+Overfull \hbox (20.38763pt too wide) in paragraph at lines 302--303
+[]\TU/texgyretermes(0)/m/n/10 Organic compounds containing the cyano group are called nitriles. A cyanohydrin is therefore an $\OML/cmm/m/it/10 ^^K$\TU/texgyretermes(0)/m/n/10 -hydroxynitrile. 
  []
 
-[43]
+[34] [35]
 Missing character: There is no 半 (U+534A) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 缩 (U+7F29) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 醛 (U+919B) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
@@ -1350,6 +1367,7 @@ Missing character: There is no 扎 (U+624E) in font [texgyretermes-regular.otf]/
 Missing character: There is no 罗 (U+7F57) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 反 (U+53CD) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 应 (U+5E94) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+[36]
 Missing character: There is no 安 (U+5B89) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 息 (U+606F) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 香 (U+9999) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
@@ -1357,73 +1375,73 @@ Missing character: There is no 缩 (U+7F29) in font [texgyretermes-regular.otf]/
 Missing character: There is no 合 (U+5408) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 File: ./image/18.21_Benzoin_Condensation.png Graphic file (type bmp)
 <./image/18.21_Benzoin_Condensation.png>
-) [44]
+) [37]
 \openout2 = `Chapter19.aux'.
 
- (./Chapter19.tex [45
+ (./Chapter19.tex
+File: ./image/19.3_Nitrogen_Inversion.png Graphic file (type bmp)
+<./image/19.3_Nitrogen_Inversion.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38
 
 
 
 ]
-File: ./image/19.3_Nitrogen_Inversion.png Graphic file (type bmp)
-<./image/19.3_Nitrogen_Inversion.png>
-
 Missing character: There is no ， (U+FF0C) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-[46] [47]
-Overfull \hbox (5.02881pt too wide) in paragraph at lines 159--159
-|[]\TU/texgyretermes(0)/b/n/14.4 Reactions of Amines with Ketones and Aldehydes (Review) 20260428| 
- []
-
-[48] [49] [50]
+[39] [40] [41] [42]
 File: ./image/19.17_Diazonium_Salts_Reactions.png Graphic file (type bmp)
 <./image/19.17_Diazonium_Salts_Reactions.png>
- [51] [52]) [53]
+ [43] [44]) [45]
 \openout2 = `Chapter20.aux'.
 
- (./Chapter20.tex
-Overfull \hbox (22.70764pt too wide) in paragraph at lines 25--26
-[]\TU/texgyretermes(0)/m/n/12 Aromatic acids of the form [] are named as derivatives of \TU/texgyretermes(0)/m/it/12 benzoic acid\TU/texgyretermes(0)/m/n/12 , []. 
- []
-
-[54
+ (./Chapter20.tex [46
 
 
 
-] [55] [56] [57]) [58]
+] [47] [48]) [49]
 \openout2 = `Chapter21.aux'.
 
- (./Chapter21.tex [59
+ (./Chapter21.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
 
-
-
-] [60] [61] [62]
-Missing character: There is no 。 (U+3002) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-[63] [64]
-Overfull \hbox (8.12961pt too wide) in paragraph at lines 283--283
-|[]\TU/texgyretermes(0)/b/n/14.4 Reactions of Acid Derivatives with Organometallic Reagents 20260526| 
  []
 
-[65] [66] [67]) [68]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--46
+
+ []
+
+[50
+
+
+
+] [51]
+Overfull \hbox (26.61212pt too wide) in paragraph at lines 127--127
+|[]\TU/texgyretermes(0)/b/n/12 Interconversion of Acid Derivatives by Nucleophilic Acyl Substitution 20260521 20260526| 
+ []
+
+[52] [53]
+Missing character: There is no 。 (U+3002) in font [texgyretermes-regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+[54] [55] [56] [57]) [58]
 \openout2 = `Chapter22.aux'.
 
  (./Chapter22.tex
-Overfull \hbox (2.23915pt too wide) in paragraph at lines 2--2
-|[]\TU/texgyretermes(0)/b/n/17.28 Condensations and Alpha Substitutions of Carbonyl Com-
- []
-
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 14.
+(Font)              scaled to size 10.0pt on input line 14.
 File: ./image/22.1_Alpha_Substitution.png Graphic file (type bmp)
 <./image/22.1_Alpha_Substitution.png>
 File: ./image/22.1_Carbonyl_Condensation_1.png Graphic file (type bmp)
 <./image/22.1_Carbonyl_Condensation_1.png>
 File: ./image/22.1_Carbonyl_Condensation_2.png Graphic file (type bmp)
 <./image/22.1_Carbonyl_Condensation_2.png>
-[69
+) [59
 
 
 
-]) [70] (./elegantnote-en.aux (./Chapter1.aux) (./Chapter15.aux) (./Chapter16.aux) (./Chapter17.aux) (./Chapter18.aux) (./Chapter19.aux) (./Chapter20.aux) (./Chapter21.aux) (./Chapter22.aux))
+] (./elegantnote-en.aux (./Chapter1.aux) (./Chapter15.aux) (./Chapter16.aux) (./Chapter17.aux) (./Chapter18.aux) (./Chapter19.aux) (./Chapter20.aux) (./Chapter21.aux) (./Chapter22.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1435,12 +1453,12 @@ Package logreq Info: Writing requests to 'elegantnote-en.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41977 strings out of 468179
- 895185 string characters out of 5436885
- 1848163 words of memory out of 5000000
- 70042 multiletter control sequences out of 15000+600000
- 635888 words of font info for 100 fonts, out of 8000000 for 9000
+ 42462 strings out of 468179
+ 912345 string characters out of 5436885
+ 1893313 words of memory out of 5000000
+ 70525 multiletter control sequences out of 15000+600000
+ 634958 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,108p,751b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,108p,751b,1332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on elegantnote-en.xdv (70 pages, 1534084 bytes).
+Output written on elegantnote-en.xdv (59 pages, 1662224 bytes).

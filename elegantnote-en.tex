@@ -12,12 +12,15 @@
 \usepackage{chemformula}
 \usepackage{float}
 
-\setchemfig{atom sep=2em}
+\setchemfig{atom sep=1.5em, bond join=true, fixed length=true}
+\setcharge{extra sep=3pt}
 
 \let\oldchemname\chemname
-\renewcommand{\chemname}[2]{\oldchemname{#1}{\small\shortstack[C]{#2}}}
+\renewcommand{\chemname}[3][1.5ex]{
+  \oldchemname[#1]{#2}{\small\shortstack[c]{#3}}
+}
 
-\renewcommand*\printatom[1]{\ch{#1}}
+\setchemformula{format=\fontfamily{cmr}\selectfont}
 
 \DeclareSIUnit\angstrom{\text{Å}}
 

@@ -5,12 +5,16 @@
 
 \begin{enumerate}
     \item Carboxylic acid derivatives are compounds with functional groups that can be converted to carboxylic acids by a simple acidic or basic hydrolysis.
-    \item The most important acid derivatives are esters, amides, and nitriles. Acid halides and anhydrides are also included. \\ [1em]
-    \chemname{\chemfig{R-C(=[2]O)-X}}{acid halide} \quad 
-    \chemname{\chemfig{R-C(=[2]O)-O-C(=[2]O)-R}}{anhydride} \quad
-    \chemname{\chemfig{R-C(=[2]O)-O-R'}}{ester} \quad 
-    \chemname{\chemfig{R-C(=[2]O)-NH_2}}{amide} \quad 
-    \chemname{\chemfig{R-C~N}}{nitrile} \\
+    \item The most important acid derivatives are esters, amides, and nitriles. Acid halides and anhydrides are also included.
+    \chemnameinit{}
+    \begin{center}
+        \chemname{\chemfig{R-C(=[2]O)-X}}{acid halide} \quad 
+        \chemname{\chemfig{R-C(=[2]O)-O-C(=[2]O)-R}}{anhydride} \quad
+        \chemname{\chemfig{R-C(=[2]O)-O-R'}}{ester} \quad 
+        \chemname{\chemfig{R-C(=[2]O)-NH_2}}{amide} \quad 
+        \chemname{\chemfig{R-C~N}}{nitrile} 
+    \end{center}
+    
     \item Esters and amides are commonly found in nature.
 \end{enumerate}
 
@@ -21,6 +25,7 @@
 \begin{enumerate}
     \item \textbf{Esters} are carboxylic acid derivatives in which the hydroxyl group (\raisebox{0.5ex}{\chemfig{-OH}}) is replaced by an alkoxy group (\raisebox{0.5ex}{\chemfig{-OR}}).
     \item Esters can be formed by the Fischer esterification of an acid with an alcohol, excess alcohol is used.
+    \chemnameinit{}
     $$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
     + \quad
     \chemname{\chemfig{R'-OH}}{alcohol} \quad 
@@ -28,37 +33,91 @@
     \chemname{\chemfig{R-C(=[2]O)-OR'}}{ester} \quad 
     + \quad 
     \ch{H2O}$$
-    \item Esters are named as \textit{alkyl carboxylates}. The first word is derived from the \textit{alkyl} group of the alcohol, and the second word from the \textit{carboxylate} group of the carboxylic acid. 
+    \item Esters are named as \textit{alkyl carboxylates}. The the \textit{alkyl} group of the alcohol and the \textit{carboxylate} group of the carboxylic acid. 
     \item The IUPAC name is derived from the IUPAC names of the alkyl group and the carboxylate, and the common name is derived from the common names of each.
-    $$\chemname{\chemfig{CH_3CH_2-OH}}{ethanol \\ ethyl alcohol} \quad
+    \chemnameinit{}
+    $$\chemname{\chemfig{CH_3C{H\smash{_2}}-OH}}{ethanol \\ ethyl alcohol} \quad
     + \quad
     \chemname{\chemfig{HO-C(=[2]O)-OH}}{ethanoic acid \\ acetic acid} \quad 
     \ch{<=>[ H^+]} \quad
-    \chemname{\chemfig{CH_3CH_2-O-C(=[2]O)-CH_3}}{ethyl ethanoate \\ ethyl acetate} \quad 
+    \chemname{\chemfig{CH_3C{H\smash{_2}}-O-C(=[2]O)-CH_3}}{ethyl ethanoate \\ ethyl acetate} \quad 
     + \quad 
     \ch{H2O}$$
-    \chemname{\chemfig{{(CH_3)_2}CH-O-C(=[2]O)-H}}{1-methylethyl methanoate \\ isopropyl formate} \quad
-    \chemname{\chemfig{[:-30]*6(-=-(-O-C(=[2]O)-*6(-=-=-=))=-=)}}{phenyl benzoate \\ phenyl benzoate} \quad
-    \chemname{\chemfig{CH_3-O-C(=[2]O)-CH_2-*6(-=-=-=)}}{methyl 2-phenylethanoate \\ methyl phenylacetate} \\ [1em]
-    \chemname{\chemfig{Ph-CH_2-O-C(=[2]O)-CH(-[2]CH_3)-CH_3}}{benzyl 2-methylpropanoate \\ benzyl isobutyrate} \quad
-    \chemname{\chemfig{CH_3-O-C(=[2]O)-*5(-----)}}{methyl cyclopentanecarboxylate \\ methyl cyclopentanecarboxylate} \quad
-    \chemname{\chemfig{[:-30]*6(---(-O-C(=[2]O)-H)---)}}{cyclohexyl methanoate \\ cyclohexyl formate} \\ [1em] %----------%
+    \chemnameinit{\chemfig{[:-30]*6(-=-(-O-C(=[2]O)-*6(-=-=-=))=-=)}}
+    \begin{center}
+        \chemname{\chemfig{{(CH_3)_2}CH-O-C(=[2]O)-H}}{1-methylethyl methanoate \\ isopropyl formate} \quad
+        \chemname{\chemfig{O(-[4]*6(-=-=-=))-C(=[2]O)-*6(-=-=-=)}}{phenyl benzoate \\ phenyl benzoate} \quad
+        \chemname{\chemfig{C{H\smash{_3}}-O-C(=[2]O)-C{H\smash{_2}}-*6(-=-=-=)}}{methyl 2-phenylethanoate \\ methyl phenylacetate}
+    \end{center}
+    \begin{center}
+        \chemname{\chemfig{Ph-C{H\smash{_2}}-O-C(=[2]O)-CH(-[2]CH_3)-CH_3}}{benzyl 2-methylpropanoate \\ benzyl isobutyrate} \quad
+        \chemname{\chemfig{C{H\smash{_3}}-O-C(=[2]O)-*5(-----)}}{methyl cyclopentanecarboxylate \\ methyl cyclopentanecarboxylate} \quad
+        \chemname{\chemfig{O(-[4]*6(------))-C(=[2]O)-H}}{cyclohexyl methanoate \\ cyclohexyl formate} 
+    \end{center}
     \item Lactones
     \begin{enumerate}
-        \item Cyclic esters are called \textbf{lactones}. A lactone is formed from an openchain hydroxy acid in which the hydroxyl group has reacted with the acid group to form an ester.
-        \item The IUPAC names of lactones are derived by adding the term \textit{lactone} at the end of the name of the parent acid. (open the ring and name it.)
-        \item The common names of lactones are formed by changing the \textit{-ic} acid ending of the hydroxy acid to \textit{-olactone}.
-        
+        \item Cyclic esters are called \textbf{lactones}. Formed from an openchain hydroxy acid in which the hydroxyl group has reacted with the acid group to form an ester.
+        \item The IUPAC name: add the term \textit{lactone} at the end of the name of the parent acid (open the ring, and count the number of carbons in the chain).
+        \item The common name: change the \textit{-ic} acid ending of the hydroxy acid to \textit{-olactone}.
+        \chemnameinit{}
+        $$\chemname{\chemfig{[:-144]*5(C(-[0]OH)(=[2]O)----O(-H))}}{4-hydroxybutanoic acid \\ $\gamma$-hydroxybutyric acid} \quad
+        \ch{<=>>[ H^+]} \quad
+        \chemname{\chemfig{[:-72]*5(---O-C(=[2]O)-)}}{4-hydroxybutanoic acid lactone \\ $\gamma$-butyrolactone} \quad
+        + \quad
+        \ch{H2O}$$
+        \chemnameinit{\chemfig{*5(-(-CH_3)-O-(=O)-(-H_3C)-)}}
+        \begin{center}
+            \chemname{\chemfig{[:-30]*6(---O-(=O)--)}}{5-hydroxypentanoic acid lactone \\ $\delta$-valerolactone} 
+            \qquad \qquad \qquad \qquad \qquad 
+            \chemname{\chemfig{*5(-(-CH_3)-O-(=O)-(-H_3C)-)}}{4-hydroxy-2-methylpentanoic acid lactone \\ $\alpha$-methyl-$\gamma$-valerolactone}
+        \end{center}
     \end{enumerate}
 \end{enumerate}
 
 \subsubsection{Amides}
 
 \begin{enumerate}
-    \item An amide is a composite of a carboxylic acid and ammonia or an amine.
-    \item Amides are only weakly basic, and we consider the amide functional group to be neutral.
-    \item \textbf{primary amide}, \textbf{secondary amide} or \textbf{an N-substituted amide}, \textbf{tertiary amides} or \textbf{N,N-disubstituted amides}.
-    \item Nomenclature: Drop the \textit{-ic} acid or \textit{-oic} acid suffix, and add the suffix \textit{-amide}. For acids that are named as alkanecarboxylic acids, the amides are named by using the suffix \textit{-carboxamide}.
+    \item An amide is a composite of a carboxylic acid and ammonia or an amine. An ammonium carboxylate salt is heated and an amide results.
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
++ \quad
+\chemname{\chemfig{H_2|\charge{90=\:}{N}-R'}}{amine} \quad
+\ch{->} \quad
+\chemname{\chemfig{R-C(=[2]O)-O} \quad \chemfig{H_3|\charge{90=$^+$}{N}-R'}}{salt} \quad
+\ch{->[heat]} \quad
+\chemname{\chemfig{R-C(=[2]O)-\charge{90=$^+$}{N}H-R'}}{amide} \quad
++ \quad \ch{H2O ^}$$
+
+\begin{enumerate}[resume]
+    \item Amides are only weakly basic because the lone pair of electrons are delocalized, and the amide functional group is neutral.
+
+    \item Substituted amides
+    \chemnameinit{}
+    \begin{center}
+        \chemname{\chemfig{R-C(=[2]O)-N(-[2]H)-H}}{\textbf{primary amide}} \qquad 
+        \chemname{\chemfig{R-C(=[2]O)-N(-[2]H)-R'}}{\textbf{secondary amide} \\ \textbf{\textit{N}-substituted amide}} \qquad
+        \chemname{\chemfig{R-C(=[2]O)-N(-[2]R')-R'}}{\textbf{tertiary amides} \\ \textbf{\textit{N},\textit{N}-disubstituted amides}}
+    \end{center}
+
+    \item Nomenclature
+    \begin{enumerate}
+        \item Drop the \textit{-ic} acid or \textit{-oic} acid suffix, and add the suffix \textit{-amide}.
+        \item For secondary and tertiary amides, treat the alkyl groups on nitrogen as substituents, and specify their position by the prefix \textit{N-}.
+        \item For acids named as alkanecarboxylic acids, the amides are named by using the suffix \textit{-carboxamide}.
+        \chemnameinit{}
+        \begin{center}
+            \chemname{\chemfig{CH_3-C(=[2]O)-NH-CH_2CH_3}}{\textit{N}-ethylethanamide \\ \textit{N}-ethylacetamide} \quad
+            \chemname{\chemfig{H-C(=[2]O)-N|{(CH_3)_2}}}{\textit{N},\textit{N}-dimethylmethanamide \\ \textit{N},\textit{N}-dimethylformamide} \quad
+            \chemname{\chemfig{{(CH_3)_2}CH-C(=[2]O)-N(-[2]CH_2CH_3)-CH_3}}{\textit{N}-ethyl-\textit{N},2-dimethylpropanamide \\ \textit{N}-ethyl-\textit{N}-methylisobutyramide}
+        \end{center}
+        \begin{center}
+            \chemname{\chemfig{C(=[2]O)(-[4]*5(-----))-NH_2}}{cyclopentanecarboxamide} \qquad \qquad
+            \chemname{\chemfig{C(=[2]O)(-[4]*3(---))-N|{(CH_3)_2}}}{\textit{N},\textit{N}-dimethylcyclopropanecarboxamide} \qquad
+            \chemname{\chemfig{H_3C-C(=[2]O)-N(-[2]H)-*6(-=-=-=)}}{acetanilide}
+        \end{center}
+    \end{enumerate} 
+%----------%
     \item Lactams
     \begin{enumerate}
         \item Cyclic amides are called \textbf{lactams}.
@@ -223,7 +282,7 @@
     \begin{enumerate}
         \item Base-catalyzed
         
-        Base-catalyzed transesterification is a simple two-step nucleophilic acyl substitution。
+        Base-catalyzed transesterification is a simple two-step nucleophilic acyl substitution.
         \item Acid-catalyzed
         
         Acid-catalyzed transesterification requires extra proton transfers before and after the major steps. The overall reaction takes place in two stages. The first half of the reaction involves acid-catalyzed addition of the nucleophile, and the second half involves acid-catalyzed elimination of the leaving group.

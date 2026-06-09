@@ -20,3 +20,7 @@ olactone
 tautomerism
 Tautomerism
 substituents
+electrophilic
+lactam
+halide
+alkoxy

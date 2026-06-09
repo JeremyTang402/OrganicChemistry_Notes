@@ -23,7 +23,7 @@
 \subsubsection{Esters of Carboxylic Acids}
 
 \begin{enumerate}
-    \item \textbf{Esters} are carboxylic acid derivatives in which the hydroxyl group (\raisebox{0.5ex}{\chemfig{-OH}}) is replaced by an alkoxy group (\raisebox{0.5ex}{\chemfig{-OR}}).
+    \item \textbf{Esters} are carboxylic acid derivatives in which the hydroxyl group (\raisebox{0.75ex}{\chemfig{-OH}}) is replaced by an alkoxy group (\raisebox{0.75ex}{\chemfig{-OR}}).
     \item Esters can be formed by the Fischer esterification of an acid with an alcohol, excess alcohol is used.
     \chemnameinit{}
     $$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
@@ -117,25 +117,58 @@ $$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
             \chemname{\chemfig{H_3C-C(=[2]O)-N(-[2]H)-*6(-=-=-=)}}{acetanilide}
         \end{center}
     \end{enumerate} 
-%----------%
+
     \item Lactams
     \begin{enumerate}
         \item Cyclic amides are called \textbf{lactams}.
-        \item Lactams are named like lactones, by adding the term \textit{lactam} at the end of the IUPAC name of the parent acid.
-        \item Common names of lactams are formed by changing the \textit{-ic} acid ending of the amino acid to \textit{-olactam}.
+        \item Nomenclature
+        \begin{enumerate}
+            \item IUPAC name: Add the term \textit{lactam} at the end of the name of the parent acid, named like lactones.
+            \item Common name: Change the \textit{-ic} acid ending of the amino acid to \textit{-olactam}.
+        \end{enumerate}
+        \chemnameinit{\chemfig{*5(--N(-H)-(=O)--)}}
+        $$\chemname{\chemfig{H_2N-C{H\smash{_2}}-C{H\smash{_2}}-C{H\smash{_2}}-C(=[2]O)-OH}}{4-aminobutanoic acid \\ $\gamma$-aminobutyric acid} \quad
+        \ch{->[heat]} \quad
+        \chemname{\chemfig{*5(--N(-H)-(=O)--)}}{4-aminobutanoic acid lactam \\ $\gamma$-butyrolactam} \quad
+        + \quad \ch{H2O}$$
+        \chemnameinit{\chemfig{*5(-(-CH_3)-N(-H)-(=O)-(-H_3C)-)}}
+        \begin{center}
+            \chemname{\chemfig{*4(-N(-H)-(=O)--)}}{3-aminopropanoic acid lactam \\ $\beta$-propiolactam} \qquad \qquad \qquad
+            \chemname{\chemfig{*7(---N(-H)-(=O)---)}}{6-aminohexanoic acid lactam \\ $\varepsilon$-caprolactam} \qquad \qquad \qquad
+            \chemname{\chemfig{*5(-(-CH_3)-N(-H)-(=O)-(-H_3C)-)}}{4-amino-2-methylpentanoic acid lactam \\ $\alpha$-methyl-$\gamma$-valerolactam}
+        \end{center}
+        \end{enumerate}
     \end{enumerate}
-\end{enumerate}
 
 \subsubsection{Nitriles}
 
 \begin{enumerate}
-    \item \textbf{Nitriles} contain the \textbf{cyano group}, \chemfig{-C~N}.
-    \item They hydrolyze to give carboxylic acids and can be synthesized by dehydration of amides.
-    \item Hydrolysis to an acid (\ch{H2O}), Synthesis from an acid (\ch{POCl3}).
-    \item Both the carbon atom and the nitrogen atom of the cyano group are \textit{sp} hybridized, and the \chemfig{R-C~N} bond angle is \qty{180}{\degree} (linear). The structure is similar to that of a terminal alkyne, except that the nitrogen atom  has a lone pair of electrons.
-    \item Common names of nitriles begin with the common name of the acid, and replace the suffix \textit{-ic acid} with the suffix \textit{-onitrile}. The IUPAC name is constructed from the alkane name, with the suffix \textit{-nitrile} added.
+    \item \textbf{Nitriles} contain the \textbf{cyano group}, \raisebox{0.75ex}{\chemfig{-C~N}}.
+    \item Nitriles hydrolyze to give carboxylic acids and can be synthesized by dehydration of amides.
+    \chemnameinit{\chemfig{R-C(=[2]O)-NH_2}}
+    $$\chemname{\chemfig{R-C~N}}{nitrile} \quad
+    \ch{->[ H2O][H^+\ or\ OH^-]} \quad
+    \chemname{\chemfig{R-C(=[2]O)-NH_2}}{primary amine} \quad
+    \ch{->[ H2O][H^+]} \quad
+    \chemname{\chemfig{R-C(=[2]O)-OH}}{acid}$$
+    $$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
+    \ch{->[ NH3][heat]} \quad
+    \chemname{\chemfig{R-C(=[2]O)-NH_2}}{primary amine} \quad
+    \ch{->[ POCl3]} \quad
+    \chemname{\chemfig{R-C~N}}{nitrile}$$
+    \item Both \ch{C} and \ch{N} of the cyano group are \textit{sp} hybridized, and the \chemfig{R-C~N} bond angle is \qty{180}{\degree}. The structure is similar to that of a terminal alkyne, except that the nitrogen atom has a lone pair of electrons (tightly bound, not basic).
+    \item Nomenclature
+    \begin{enumerate}
+        \item Common name: Replace the suffix \textit{-ic acid} of the carboxylic acid with the suffix \textit{-onitrile}.
+        \item IUPAC name: Add the suffix \textit{-nitrile} to the alkane name.
+        \chemnameinit{}
+        \begin{center}
+            \chemname{\chemfig{C{H\smash{_3}}-C~N}}{ethanenotrile \\ acetonitrile} \quad
+            \chemname{\chemfig{C{H\smash{_3}}-CH(-[2]B|r)-C{H\smash{_2}}-C~N}}{3-bromobutanenitrile \\ $\beta$-bromobutyronitrile}
+        \end{center}
+    \end{enumerate}
 \end{enumerate}
-
+%----------%
 \subsubsection{Acid Halides}
 
 \begin{enumerate}

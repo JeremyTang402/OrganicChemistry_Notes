@@ -16,8 +16,8 @@
 \setcharge{extra sep=3pt}
 
 \let\oldchemname\chemname
-\renewcommand{\chemname}[3][1.5ex]{
-  \oldchemname[#1]{#2}{\small\shortstack[c]{#3}}
+\renewcommand{\chemname}[2]{
+  \oldchemname{#1}{\small\shortstack[c]{#2}}
 }
 
 \setchemformula{format=\fontfamily{cmr}\selectfont}

@@ -24,3 +24,4 @@ electrophilic
 lactam
 halide
 alkoxy
+cyano

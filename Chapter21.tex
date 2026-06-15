@@ -750,47 +750,178 @@ $$\chemname{\chemfig{R-C~\charge{0=\:}{N}}}{nitrile} \quad
 
 \begin{enumerate}
     \item Lithium aluminum hydride reduces acids, acid chlorides, anhydrides, and esters to primary alcohols.
+    \item Either lithium aluminum hydride or sodium borohydride converts acid chlorides to primary alcohols.
 \end{enumerate}
-
+\chemnameinit{\chemfig{R'-O^{-}\ Li^+}}
+$$\chemname{\chemfig{R-C(=[2]O)-O-R'}}{ester \\ (or acid chloride)}  \quad
+\ch{->[ LiAlH4]} \quad
+\chemname{\chemfig{R-CH_2O^{-}\ Li^+}}{primary alkoxide} \quad
++ \quad
+\chemfig{R'-O^{-}\ Li^+}$$
+$$\ch{->[ H3O^+]} \quad
+\chemname{\chemfig{R-CH_2OH}}{primary alcohol} \quad
++ \quad
+\chemfig{R'-OH}$$
 \begin{mechanism}
     Hydride Reduction of an Ester
+
+    Nucleophilic acyl substitution gives an aldehyde, which reduces further to an alcohol.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of the nucleophile (hydride).
+        \item \textbf{\textit{Step 2:}} Elimination of alkoxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{21.8_Ester_Hydride_Reduction_1.png}
+            \label{21.8_Ester_Hydride_Reduction_1}
+        \end{figure}
+        \item \textbf{\textit{Step 3:}} Addition of a second hydride ion.
+        \item \textbf{\textit{Step 4:}} Add acid in the workup to protonate the alkoxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.8_Ester_Hydride_Reduction_2.png}
+            \label{21.8_Ester_Hydride_Reduction_2}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \subsubsection{Reduction to Aldehydes}
 
+\begin{enumerate}
+    \item Acid chlorides are reduced to aldehydes by mild reducing agents such as lithium tri-\textit{tert}-butoxyaluminum hydride (\ch{LiAlH(O-$t$-Bu)_3}).
+    \item Esters and nitriles are reduced to aldehydes by Diisobutylaluminum hydride (\ch{DIBAL-H}).
+\end{enumerate}
+\chemnameinit{}
+$$\chemfig{R-C(=[2]O)-Cl} \quad
+\mbox{\ch{->[ LiAlH(O-$t$-Bu)_3][ ether]}} \quad
+\chemfig{R-C(=[2]O)-H}$$
+$$\chemfig{R-C(=[1]O)-[7]OR'} \quad
+\mbox{\ch{->[ (1) ($i$-Bu)2AlH ][ $\qty{-78}{\degreeCelsius}$ ]}} \quad
+\chemfig{R-C(-[2]O-Al{(\textit{i}-Bu)_2})(-[6]OR')-H} \quad
+\ch{->[ (2) H2O ]} \quad
+\chemfig{R-C(=[1]O)-[7]H}$$
+
 \subsubsection{Reduction to Amines}
 
 \begin{enumerate}
-    \item % 亚甲基而不是醇
+    \item Lithium aluminum hydride reduces amides and nitriles to amines.
+    \item The carbonyl is reduced to a methanediyl group, not an alcohol. % 亚甲基而不是醇
 \end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-NH_2}}{primary amide} \quad
+\ch{->[ (1) LiAlH4 ][ (2) H2O ]} \quad
+\chemname{\chemfig{R-C{H\smash{_2}}-NH_2}}{primary amine}$$
+$$\chemname{\chemfig{R-C(=[2]O)-NHR'}}{secondary amide} \quad
+\ch{->[ (1) LiAlH4 ][ (2) H2O ]} \quad
+\chemname{\chemfig{R-C{H\smash{_2}}-NHR'}}{secondary amine}$$
+$$\chemname{\chemfig{R-C(=[2]O)-NR'_2}}{tertiary amide} \quad
+\ch{->[ (1) LiAlH4 ][ (2) H2O ]} \quad
+\chemname{\chemfig{R-C{H\smash{_2}}-NR'_2}}{tertiary amine}$$
+$$\chemfig{R-C~\charge{0=\:}{N}} \quad
+\ch{->[ H2/Pt][ or ~ (1) LiAlH4; ~ (2) H2O ]} \quad
+\chemfig{R-C(-[2]H)(-[6]H)-\charge{0=\:}{N}(-[1]H)(-[7]H)}$$
+
+\begin{mechanism}
+    Reduction of an Amide to an Amine
+
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of hydride.
+        \item \textbf{\textit{Step 2:}} Oxygen leaves.
+        \item \textbf{\textit{Step 3:}} Second hydride adds.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{21.8_Amide_Reduction_to_Amine.png}
+            \label{21.8_Amide_Reduction_to_Amine}
+        \end{figure}
+    \end{itemize}
+\end{mechanism}
 
 \subsection{Reactions of Acid Derivatives with Organometallic Reagents 20260526}
 
 \begin{enumerate}
     \item Esters and Acid Chlorides
-    \begin{enumerate}
-        \item Grignard and organolithium reagents add twice to acid chlorides and esters to give alkoxides (Section 10-9D). Protonation of the alkoxides gives alcohols. % Grignard not react with acid.
+    \begin{enumerate}[series=2ndLevel]
+        \item Grignard and organolithium reagents add twice to acid chlorides and esters to give alkoxides. Protonation of the alkoxides gives alcohols. Grignard reagents will not add to acid.
     \end{enumerate}
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-OR'}}{ester} \quad
+\ch{->[ 2 R''MgX][ ( or ~ 2 R''Li)]} \quad
+\chemname{\chemfig{R-C(-[2]OMgX)(-[6]R|''{\quad + \quad R'OMgX})-R''}}{alkoxide salt} \quad
+\ch{->[ H3O^+]} \quad
+\chemname{\chemfig{R-C(-[2]OH)(-[6]R|'')-R''}}{tertiary alcohol}$$
+
+\begin{mechanism}
+    Reaction of an Ester with Two Moles of a Grignard Reagent
+
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of the Grignard.
+        \item \textbf{\textit{Step 2:}} Elimination of alkoxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.9_Ester_with_2_Grignard_1.png}
+            \label{21.9_Ester_with_2_Grignard_1}
+        \end{figure}
+        \item \textbf{\textit{Step 3:}} Addition of another Grignard.
+        \item \textbf{\textit{Workup:}} Add acid to protonate the alkoxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.9_Ester_with_2_Grignard_2.png}
+            \label{21.9_Ester_with_2_Grignard_2}
+        \end{figure}
+    \end{itemize}
+\end{mechanism}
+
+\begin{enumerate}[resume]
+    \item[] 
+    \begin{enumerate}[resume=2ndLevel]
+        \item Acid chlorides react just once with dialkylcuprates (Gilman reagents) to give ketones.
+    \end{enumerate}
+\end{enumerate}
+$$\chemfig{R-C(=[2]O)-Cl} \quad + \quad \chemfig{R'_2CuLi} \quad \ch{->} \quad \chemfig{R-C(=[2]O)-R'}$$
+\begin{enumerate}[resume]
     \item Nitriles
     \begin{enumerate}
-        \item A Grignard or organolithium reagent attacks the electrophilic cyano group to form the salt of an imine.
-        \item Acidic hydrolysis of the salt (in a separate step) gives the imine, which is further hydrolyzed to a ketone (Section 18-9).
+        \item A Grignard or organolithium reagent attacks the electrophilic cyano group to form the salt of an imine, which is further hydrolyzed to a ketone.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{21.9_Nitrile_with_Grignard.png}
+            \label{21.9_Nitrile_with_Grignard}
+        \end{figure}
     \end{enumerate}
 \end{enumerate}
 
+\begin{note}
+    Grignards add to esters and acid chlorides to give tertiary alcohols, with one group from the ester or acid chloride and two identical groups from the Grignard. \textit{Formate} esters give secondary alcohols, with a hydrogen from the ester and two identical groups from the Grignard.
+\end{note}
+
 \begin{example} % 21-26
-    Acidic hydrolysis of the salt (in a separate step) gives the imine, which is further hydrolyzed to a ketone (Section 18-9).
+    Draw a mechanism for the acidic hydrolysis of the magnesium salt shown above to acetophenone.
 \end{example}
 
 \subsection{Summary of the Chemistry of Acid Chlorides 20260526}
 
 \begin{enumerate}
-    \item Synthesis of Acid Chlorides: Acid chlorides (acyl chlorides) are synthesized from the corresponding carboxylic acids, \ch{SOCl2} and \ch{COCl2} most convenient.
-    \item Reactions of Acid Chlorides
-    \item Friedel–Crafts Acylation of Aromatic Rings
+    \item Synthesis of Acid Chlorides: Acid chlorides are synthesized from the corresponding carboxylic acids, \ch{SOCl2} and \ch{COCl2} most convenient.
 \end{enumerate}
-
-\subsection{Summary of the  Chemistry of Anhydrides 20260526}
+$$\chemfig{R-C(=[2]O)-OH} \quad
+\ch{->[ SOCl2][ or\ (COCl)2 ]} \quad
+\chemfig{R-C(=[2]O)-Cl} \quad + \quad \ch{SO2 ^} \quad + \quad \ch{HCl ^}$$
+\begin{enumerate}[resume]
+    \item Reactions of Acid Chlorides
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.10_Acid_Chlorides_Reactions_1.png}
+        \label{21.10_Acid_Chlorides_Reactions_1}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.10_Acid_Chlorides_Reactions_2.png}
+        \label{21.10_Acid_Chlorides_Reactions_2}
+    \end{figure}
+    \item Friedel–Crafts Acylation of Aromatic Rings: In the presence of aluminum chloride, acyl halides acylate benzene, halobenzenes, and activated benzene derivatives.
+\end{enumerate}
+%----------%
+\subsection{Summary of the Chemistry of Anhydrides 20260526}
 
 \begin{enumerate}
     \item l

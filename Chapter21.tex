@@ -572,66 +572,179 @@ $$\chemname{\chemfig{*6(-=(-C(=[6]O)-[0]OH)-(-OH)=-=)}}{salicylic acid} \quad
         \item Explain why a single drop of sulfuric acid dramatically increases the reaction rate.
     \end{enumerate}
 \end{example}
-%----------%
+
 \subsection{Hydrolysis of Carboxylic Acid Derivatives 20260526}
 
 \subsubsection{Hydrolysis of Acid Halides and Anhydrides}
 
 \begin{enumerate}
-    \item Acid halides and anhydrides are so reactive that they hydrolyze under neutral conditions.
+    \item Acid halides and anhydrides hydrolyze under neutral conditions, like moist air, with no acid or base catalyst.
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.8\textwidth]{21.7_Acid_Halides_and_Anhydrides_Hydrolysis.png}
+       \label{21.7_Acid_Halides_and_Anhydrides_Hydrolysis}
+   \end{figure}
 \end{enumerate}
 
 \subsubsection{Hydrolysis of Esters}
 
 \begin{enumerate}
-    \item Acid-catalyzed hydrolysis of an ester is simply the reverse of the Fischer esterification equilibrium.
-    \item Basic hydrolysis of esters, called \textbf{saponification}, avoids the equilibrium of the Fischer esterification.
+    \item Acid hydrolysis of an ester is the reverse of the Fischer esterification equilibrium. Excess water drives the equilibrium.
+    \item Base hydrolysis of esters, called \textbf{saponification}, avoids the equilibrium of the Fischer esterification. Strongly exothermic proton transfer drives the saponification.
 \end{enumerate}
 
 \begin{mechanism}
     Saponification of an Ester
 
     This is another standard addition–elimination mechanism, ending with a proton transfer to give the final products.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of the nucleophile.
+        \item \textbf{\textit{Step 2:}} Elimination of the leaving group.
+        \item \textbf{\textit{Step 3:}} Proton transfer.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.7_Ester_Saponification.png}
+            \label{21.7_Ester_Saponification}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
+\begin{enumerate}[resume]
+    \item Soap is made by the basic hydrolysis of fats, which are esters of long-chain carboxylic acids (\textit{fatty acids}) with the triol glycerol.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\textwidth]{21.7_Soap.png}
+        \label{21.7_Soap}
+    \end{figure}
+\end{enumerate}
+
 \begin{example} % 21-16
-    Suppose we have some optically pure (\textit{R})-2-butyl acetate that has been “labeled” with the heavy \ch{^18O} isotope at one oxygen atom as shown.
+    Suppose we have some optically pure (\textit{R})-2-butyl acetate that has been “labeled” with the heavy \ch{^{18}O} isotope at one oxygen atom as shown.
 \end{example}
 
 \subsubsection{Hydrolysis of Amides}
 
 \begin{enumerate}
-    \item 
+    \item Amides hydrolyze to carboxylic acids under both acidic and basic conditions.
+    \item Stronger conditions are required. Typical hydrolysis conditions involve prolonged heating in \qty{6}{M} \ch{HCl} or $40 \%$ aqueous \ch{NaOH}.
+    \item Basic hydrolysis
 \end{enumerate}
-
+\chemnameinit{}
+$$\chemfig{R-C(=[2]O)-NHR'} \quad
++ \quad
+\ch{Na^+\ ^-OH} \quad
+\ch{->[ H2O]} \quad
+\chemfig{R-C(=[2]O)-O^{-}\ Na^{+}}\quad
++ \quad \chemfig{R'NH_2}$$
+\begin{enumerate}[resume]
+    \item Acid hydrolysis
+\end{enumerate}
+\chemnameinit{}
+$$\chemfig{R-C(=[2]O)-NHR'} \quad
++ \quad
+\ch{H3O+} \quad
+\ch{->} \quad
+\chemfig{R-C(=[2]O)-OH}\quad
++ \quad \chemfig{R'\charge{90=$^+$}{N}H_3}$$
 \begin{mechanism}
     Basic Hydrolysis of an Amide
+
+    This is another standard addition–elimination mechanism, ending with a proton transfer to give the final products.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of the nucleophile.
+        \item \textbf{\textit{Step 2:}} Elimination of the leaving group.
+        \item \textbf{\textit{Step 3:}} Proton transfer.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.7_Amide_Hydrolysis_Basic.png}
+            \label{21.7_Amide_Hydrolysis_Basic}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \begin{mechanism}
     Acidic Hydrolysis of an Amide
 
     This mechanism takes place in two stages.
+    
+    First half: Acid-catalyzed addition of the nucleophile (water).
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Protonation of the carbonyl.
+        \item \textbf{\textit{Step 2:}} Addition of the nucleophile.
+        \item \textbf{\textit{Step 3:}} Loss of a proton.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.7_Amide_Hydrolysis_Acid_1.png}
+            \label{21.7_Amide_Hydrolysis_Acid_1}
+        \end{figure}
+    \end{itemize}
+    
+    Second half: Acid-catalyzed elimination of the leaving group.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Protonation of the leaving group.
+        \item \textbf{\textit{Step 2:}} Elimination of the leaving group.
+        \item \textbf{\textit{Step 3:}} Deprotonation.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.7_Amide_Hydrolysis_Acid_2.png}
+            \label{21.7_Amide_Hydrolysis_Acid_2}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \subsubsection{Hydrolysis of Nitriles}
 
 \begin{enumerate}
     \item Nitriles are hydrolyzed to amides, and further to carboxylic acids, by heating with aqueous acid or base.
-    \item Mild conditions can hydrolyze a nitrile only as far as the amide. Stronger conditions can hydrolyze it all the way to the carboxylic acid.
+    \item Mild conditions can hydrolyze a nitrile to the amide. Stronger conditions can hydrolyze it to the carboxylic acid.
+    \item Basic hydrolysis of nitriles
 \end{enumerate}
-
+\chemnameinit{\chemfig{R-C(=[2]O)-NH_2}}
+$$\chemname{\chemfig{R-C~\charge{0=\:}{N}}}{nitrile} \quad
++ \quad
+\ch{H2O} \quad
+\ch{->[ ^-OH][ H2O]} \quad
+\chemname{\chemfig{R-C(=[2]O)-NH_2}}{1$^\circ$ amide} \quad
+\ch{->[ ^-OH][ H2O]} \quad 
+\chemname{\chemfig{R-C(=[2]O)-O^{-}}}{carboxylate ion} \quad
++ \quad
+\chemfig{\charge{180=\:}{N}H_3}$$
+\begin{enumerate}[resume]
+    \item Acidic hydrolysis of nitriles
+\end{enumerate}
+\chemnameinit{\chemfig{R-C(=[2]O)-NH_2}}
+$$\chemname{\chemfig{R-C~\charge{0=\:}{N}}}{nitrile} \quad
+\ch{->[ H^+][ H2O]} \quad
+\chemname{\chemfig{R-C(=[2]O)-NH_2}}{primary amide} \quad
+\ch{->[ H^+][ H2O]} \quad
+\chemname{\chemfig{R-C(=[2]O)-OH}}{carboxylic acid} \quad
++ \quad
+\ch{NH_4^+}$$
 \begin{mechanism}
     Base-Catalyzed Hydrolysis of a Nitrile
 
-
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} The hydroxide ion adds to the carbon of the cyano group.
+        \item \textbf{\textit{Step 2:}} Protonation leads to the enol of an amide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{21.7_Nitrile_Hydrolysis_Basic_1.png}
+            \label{21.7_Nitrile_Hydrolysis_Basic_1}
+        \end{figure}
+        \item \textbf{\textit{Step 3:}} Removal and replacement of a proton (tautomerism) leads to the amide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{21.7_Nitrile_Hydrolysis_Basic_2.png}
+            \label{21.7_Nitrile_Hydrolysis_Basic_2}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \begin{example} % 21-23
     The mechanism for acidic hydrolysis of a nitrile resembles the basic hydrolysis, except that the nitrile is first protonated, activating it toward attack by a weak nucleophile (water). Under acidic conditions, the proton transfer (tautomerism) involves protonation on nitrogen followed by deprotonation on oxygen. Propose a mechanism for the acid-catalyzed hydrolysis of benzonitrile to benzamide.
 \end{example}
-
-\subsection{Reduction of Acid  Derivatives 20260526}
+%----------%
+\subsection{Reduction of Acid Derivatives 20260526}
 
 \subsubsection{Reduction to Alcohols}
 

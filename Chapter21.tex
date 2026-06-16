@@ -920,21 +920,57 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
     \end{figure}
     \item Friedel–Crafts Acylation of Aromatic Rings: In the presence of aluminum chloride, acyl halides acylate benzene, halobenzenes, and activated benzene derivatives.
 \end{enumerate}
-%----------%
+
 \subsection{Summary of the Chemistry of Anhydrides 20260526}
 
 \begin{enumerate}
-    \item l
-    \item Acetic Anhydride: The most common industrial synthesis begins by dehydrating acetic acid to give ketene.
-    \item General Anhydride Synthesis: The most general method for making anhydrides is the reaction of an acid chloride with a carboxylic acid or a carboxylate salt.
-    \item Reactions of Anhydrides: Like acid chlorides, anhydrides participate in the Friedel–Crafts acylation. Cyclic anhydrides can provide additional functionality on the side chain of the aromatic product.
+    \item Acetic Anhydride: The most common industrial synthesis begins by dehydrating acetic acid to give ketene. Ketene reacts quickly and quantitatively to give acetic anhydride.
+\end{enumerate}
+\chemnameinit{\chemfig{C(-[3]H)(-[5]H)=C=O}}
+$$\chemname{\chemfig{CH_3-C(=[2]O)-OH}}{acetic acid} \quad
+\ch{<=>>[ (EtO)3P=O , ~ $\qty{750}{\degreeCelsius}$ ]} \quad
+\chemname{\chemfig{C(-[3]H)(-[5]H)=C=O}}{ketene} \quad
++ \quad \ch{H2O}$$
+$$\chemname{\chemfig{C{H\smash{_3}}-C(=[2]O)-OH}}{acetic acid} \quad
++ \quad
+\chemname{\chemfig{C(-[3]H)(-[5]H)=C=O}}{ketene} \quad
+\ch{->} \quad
+\chemname{\chemfig{C{H\smash{_3}}-C(=[2]O)-O-C(=[2]O)-CH_3}}{acetic anhydride}$$
+\begin{enumerate}[resume]
+    \item General Anhydride Synthesis: An acid chloride reacts with a carboxylic acid or a carboxylate salt.
+\end{enumerate}
+\chemnameinit{\chemfig{^{-}O-C(=[2]O)-R'}}
+$$\chemname{\chemfig{R-C(=[2]O)-Cl}}{acid chloride} \quad
++ \quad
+\chemname{\chemfig{^{-}O-C(=[2]O)-R'}}{carboxylate \\ (or acid)} \quad
+\ch{->} \quad
+\chemname{\chemfig{R-C(=[2]O)-O-C(=[2]O)-R'}}{acid anhydride} \quad
++ \quad \ch{Cl^-}$$
+\begin{enumerate}[resume]
+    \item Heat dicarboxylic acids to form cyclic anhydrides. Five- and six-membered cyclic anhydrides are favored.
+    \item Reactions of Anhydrides
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.11_Anhydrides_Reactions_1.png}
+        \label{21.11_Anhydrides_Reactions_1}
+    \end{figure}
+    Anhydrides participate in the Friedel–Crafts acylation. Cyclic anhydrides can provide additional functionality on the side chain of the aromatic product.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.11_Anhydrides_Reactions_2.png}
+        \label{21.11_Anhydrides_Reactions_2}
+    \end{figure}
     \item Three specific instances when anhydrides are preferred.
     \begin{enumerate}
-        \item 
+        \item Use of acetic anhydride to give a better yield than acetyl chloride.
+        \item Use of acetic formic anhydride to produces formate esters and formamides.
+        \item Use of cyclic anhydrides to make difunctional compounds.
     \end{enumerate}
 \end{enumerate}
 
-\begin{example}
+\begin{example} % 21-31
+    ~
+
     \begin{enumerate}[label=(\alph*)]
         \item Give the products expected when acetic formic anhydride reacts with (i) aniline and  (ii) benzyl alcohol. 
         \item Propose mechanisms for these reactions.
@@ -945,17 +981,48 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
 
 \begin{enumerate}
     \item Synthesis of Esters
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{21.12_Esters_Synthesis.png}
+        \label{21.12_Esters_Synthesis}
+    \end{figure}
     \item Reactions of Esters
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.12_Esters_Reactions.png}
+        \label{21.12_Esters_Reactions}
+    \end{figure}
     \item Formation of Lactones
+    \begin{enumerate}
+        \item Formation favored for five- and six-membered rings.
+        \item For larger rings, remove water to shift equilibrium toward products.
+    \end{enumerate}
+    \item Polyesters
 \end{enumerate}
 
 \subsection{Summary of the Chemistry of Amides 20260526}
 
 \begin{enumerate}
     \item Synthesis of Amides
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{21.13_Amides_Synthesis.png}
+        \label{21.13_Amides_Synthesis}
+    \end{figure}
     \item Reactions of Amides
-    \item Dehydration of Amides to Nitriles: Strong dehydrating agents can remove the elements of water from a primary amide to give a nitrile.
-    \item Formation of Lactams
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{21.13_Amides_Reactions.png}
+        \label{21.13_Amides_Reactions}
+    \end{figure}
+    \item Dehydration of Amides to Nitriles: Strong dehydrating agents can remove the elements of water from a primary amide to give a nitrile. This is one of the most common methods for synthesis of nitriles.
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-\charge{90=\:}{N}H_2}}{primary amide} \quad
+\ch{->[ POCl3 ][ ( or ~ P2O5 ) ]} \quad
+\chemname{\chemfig{R-C~\charge{0=\:}{N}}}{nitrile}$$
+\begin{enumerate}[resume]
+    \item Formation of Lactams: Five- and six-membered rings can be formed by heating $\gamma$- and $\delta$-amino acids. Smaller or larger rings do not form readily.
     \item Biological Reactivity of $\beta$-Lactams: penicillin
     \item Polyamides: Nylon
 \end{enumerate}
@@ -963,16 +1030,35 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
 \subsection{Summary of the Chemistry of Nitriles 20260528}
 
 \begin{enumerate}
-    \item Synthesis
+    \item Synthesis of Nitriles
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{21.14_Nitriles_Synthesis.png}
+        \label{21.14_Nitriles_Synthesis}
+    \end{figure}
     \item Reactions of Nitriles
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\textwidth]{21.14_Nitriles_Reactions.png}
+        \label{21.14_Nitriles_Reactions}
+    \end{figure}
 \end{enumerate}
 
 \subsection{Thioesters 20260528}
 
 \begin{enumerate}
-    \item A \textbf{thioester} is formed from a carboxylic acid and a thiol.
+    \item A \textbf{thioester} is formed from a carboxylic acid and a thiol, also called \textit{thiol ester}.
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-OH}}{acid} \quad
++ \quad
+\chemname{\chemfig{R'-SH}}{thiol} \quad
+\ch{<=>} \quad
+\chemname{\chemfig{R-C(=[2]O)-S-R'}}{thioester} \quad
++ \quad \ch{H2O}$$
+\begin{enumerate}[resume]
     \item Thioesters are more reactive toward nucleophilic acyl substitution than normal esters, but less reactive than acid chlorides and anhydrides.
-    \item The overlap is weak and relatively ineffective.
+    \item Resonance overlap is weak and relatively ineffective. The alkyl sulfide anion is a better leaving group than the alkoxide anion.
 \end{enumerate}
 
 \subsection{Esters and Amides of Carbonic Acid 20260528}
@@ -982,19 +1068,20 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
     \item \textbf{Carbonate esters} are diesters of carbonic acid, with two alkoxy groups replacing the hydroxyl groups of carbonic acid.
     \item \textbf{Ureas} are diamides of carbonic acid, with two nitrogen atoms bonded to the carbonyl group.
     \item \textbf{Carbamate esters} (\textbf{urethanes}) are the stable esters of the unstable \textbf{carbamic acid}, the monoamide of carbonic acid.
-    \item Many of these derivatives can be synthesized by nucleophilic acyl substitution from phosgene, the acid chloride of carbonic acid. Another way of making urethanes is to treat an alcohol or a phenol with an \textbf{isocyanate}, which is an anhydride of a carbamic acid.
+    \item Many of these derivatives can be synthesized by nucleophilic acyl substitution from phosgene, the acid chloride of carbonic acid.
+    \item Another way of making urethanes is to treat an alcohol or a phenol with an \textbf{isocyanate}, which is an anhydride of a carbamic acid.
     \item Polycarbonates and Polyurethanes
     \begin{enumerate}
-        \item two large classes of polymers are bonded by linkages containing these functional groups: the \textbf{polycarbonates} and the \textbf{polyurethanes}.
-        \item \textit{bisphenol A}
+        \item Two large classes of polymers are bonded by linkages containing these functional groups: the \textbf{polycarbonates} and the \textbf{polyurethanes}.
+        \item Polycarbonates are long-chain esters of carbonic acid. A polyurethane results when a diol reacts with a diisocyanate.
     \end{enumerate}
 \end{enumerate}
-
-%44 47 49/bc 50
+\chemnameinit{}
+$$\chemname{\chemfig{C(-*6(-=-(-OH)=-=))(-[4]*6(-=-(-OH)=-=))(-[2]CH_3)(-[6]CH_3)}}{bisphenol A}$$
 
 \begin{example} % 21-64
     An unknown compound gives a mass spectrum with a weak molecular ion at \textit{m/z} 113 and a prominent ion at \textit{m/z} 68. Its  NMR and IR spectra are shown here. Determine the structure, and show how it is consistent with the observed absorptions. Propose a favorable fragmentation to explain the prominent MS peak at \textit{m/z} 68.
-
+\begin{comment}
     \textbf{SOLUTION} \quad 
     
     \textbf{MS} 113-odd-\ch{N} 113 - 68 = 45 
@@ -1008,11 +1095,12 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
     \textbf{H NMR} one single \ch{-CH2}, one \ch{-CH2} and \ch{-CH3} together (split).
 
     \chemfig{N~C-CH_2-C(=[2]O)-O-CH_2-CH_3} \ch{-OEt} = 45
+\end{comment}
 \end{example}
 
 \begin{example} % 21-65
     An unknown compound gives the NMR, IR, and mass spectra shown next. Propose a structure, and show how it is  consistent with the observed absorptions. Show fragmentations that account for the prominent ion at \textit{m/z} 69 and the smaller peak at \textit{m/z} 99.
-
+\begin{comment}
     \textbf{SOLUTION} \quad 
 
     \textbf{MS} 114 - 69 = 45(\ch{-OEt}), 114 - 99 = 13(\ch{-CH3}), no benzyl(91)
@@ -1026,11 +1114,12 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
     notice: E not Z % 耦合常数显示为反式构象
 
     \chemfig{C(-[3]H)(-[5]H_3C)=C(-[1]C(=[2]O)-OC_2H_5)(-[7]H)}
+\end{comment}
 \end{example}
 
 \begin{example} % 21-66
-    The IR spectrum, \ch{^13C} NMR spectrum, and \ch{^1H} NMR spectrum of an unknown compound (\ch{C6H8O3}) appear next.  Determine the structure, and show how it is consistent with the spectra.
-
+    The IR spectrum, \ch{^{13}C} NMR spectrum, and \ch{^1H} NMR spectrum of an unknown compound (\ch{C6H8O3}) appear next.  Determine the structure, and show how it is consistent with the spectra.
+\begin{comment}
     \textbf{SOLUTION} \quad
 
     $\Omega$ = 3, 2 carbonyl and 1 ring? no anhydride(1800)
@@ -1038,8 +1127,10 @@ $$\chemfig{R-C(=[2]O)-OH} \quad
     \textbf{C NMR} one over 200
     
     \textbf{H NMR} 3:1:1:1:2 the highest one not splitted, \ch{-CH3} to \ch{C=O}.
+\end{comment}
 \end{example}
 
 \begin{example} % 21-67
     An unknown compound of molecular formula \ch{C5H9NO} gives the IR and NMR spectra shown here. The broad NMR peak at $\delta 7.55$ disappears when the sample is shaken with \ch{D2O}. Propose a structure, and show how it is consistent with the absorptions in the spectra.
 \end{example}
+%----------%

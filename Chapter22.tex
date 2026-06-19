@@ -4,8 +4,8 @@
 \subsection{Introduction 20260528}
 
 \begin{enumerate}
-    \item \textbf{Alpha} ($\boldsymbol{\alpha}$) \textbf{substitutions} replace a hydrogen atom at the $\boldsymbol{\alpha}$ \textbf{carbon atom}  by some other group.
     \item Alpha substitutions generally take place when the carbonyl compound is converted to its enolate ion or its enol tautomer.
+    \item \textbf{Alpha} ($\boldsymbol{\alpha}$) \textbf{substitutions} replace a hydrogen atom at the $\boldsymbol{\alpha}$ \textbf{carbon atom}  by some other group.
 \end{enumerate}
 
 \begin{mechanism}
@@ -62,16 +62,15 @@
 \begin{enumerate}[resume]
     \item Alpha substitutions and condensations of carbonyl compounds are some of the most common methods for forming carbon-carbon bonds.
     \item Considering the structure and formation of enols and enolate ions.
-    \item Some important structures: \chemfig{C=C-C(=[2]O)} \quad \chemfig{C(=[2]O)-CH_2-C(=[2]O)}
+    \item Some important structures: \chemfig{-C=C-C(=[2]O)-} \quad \chemfig{-C(=[2]O)-CH_2-C(=[2]O)-}
 \end{enumerate}
-%----------%
+
 \subsection{Enols and Enolate Ions 20260602}
 
 \subsubsection{Keto–Enol Tautomerism}
 
 \begin{enumerate}
-    \item A proton on the $\alpha$ carbon atom is abstracted to form a resonance-stabilized enolate ion with the negative charge spread over a carbon atom and an oxygen atom.
-    \item Reprotonation can occur either on the $\alpha$ carbon (returning to the \textbf{keto} form) or on the oxygen atom, giving a vinyl alcohol, the \textbf{enol} form.
+    \item A proton on the $\alpha$ carbon atom is abstracted to form a resonance-stabilized \textit{enolate ion} with the negative charge spread over a carbon atom and an oxygen atom.
 \end{enumerate}
 
 \begin{mechanism}
@@ -89,7 +88,8 @@
 \end{mechanism}
 
 \begin{enumerate}[resume]
-    \item This type of isomerization, occurring by the migration of a proton and the movement of a double bond, is called \textbf{tautomerism}, and the isomers that interconvert are called \textbf{tautomers}.
+    \item For simple ketones and aldehydes, the keto form predominates. 
+    \item \textbf{Tautomerism} is type of isomerization occurring by the migration of a proton and the movement of a double bond, and the isomers that interconvert are called \textbf{tautomers} (not resonance forms).
     \item In acid, a proton is moved from the a carbon to oxygen by first protonating oxygen and then removing a proton from carbon.
 \end{enumerate}
 
@@ -101,15 +101,13 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=0.9\textwidth]{22.2_Keto_Enol_ Tautomerism_A.png}
-            %\caption{***}
             \label{22.2_Keto_Enol_ Tautomerism_A}
         \end{figure}
     \end{itemize}
 \end{mechanism}
 
 \begin{enumerate}[resume]
-    \item Hydrogen atom on an $\alpha$ carbon may be lost and regained through keto–enol tautomerism; such a hydrogen is said to be \textbf{enolizable}.
-    \item If an asymmetric carbon atom has an enolizable hydrogen atom, a trace of acid or base allows that carbon to invert its configuration, with the enol serving as the intermediate. A racemic mixture (or an equilibrium mixture of diastereomers) is the result.
+    \item Keto–enol tautomerism affects the stereochemistry of ketones and aldehydes. If an asymmetric carbon atom has an enolizable hydrogen atom, a trace of acid or base allows that carbon to invert its configuration, with the enol serving as the intermediate. A racemic mixture (or an equilibrium mixture of diastereomers) results.
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.9\textwidth]{22.2_Enolizable_Configuration.png}
@@ -121,36 +119,77 @@
 \subsubsection{Formation and Stability of Enolate Ions}
 
 \begin{enumerate}
-    \item The for removal of an proton from a typical ketone or aldehyde is about 20, showing that a typical ketone or aldehyde is much more acidic than an alkane or an alkene, or even an alkyne.
-    \item Still, a ketone or aldehyde is less acidic than water or an alcohol.
+    \item The for removal of an proton from a typical ketone or aldehyde is about 20, more acidic than an alkane or an alkene, or even an alkyne, but less acidic than water or an alcohol.
+    \item When a simple ketone or aldehyde is treated with hydroxide ion or an alkoxide ion, the equilibrium mixture contains only a small fraction of the deprotonated, enolate form.
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.9\textwidth]{22.2_Enolate_Acidity.png}
-        %\caption{***}
         \label{22.2_Enolate_Acidity}
     \end{figure}
-    \item Even though the equilibrium concentration of the enolate ion may be small, it serves as a useful, reactive nucleophile. When an enolate reacts with an electrophile (other than a proton), the enolate concentration decreases, and the equilibrium shifts to the right. Eventually, all the carbonyl compound reacts via a low concentration of the enolate ion. %pic
-    \item Sometimes this equilibrium mixture of enolate and base won’t work, usually because the base (hydroxide or alkoxide) reacts with the electrophile faster than the enolate does.
+    \item The equilibrium concentration of the enolate ion may be small, but it serves as a useful, reactive nucleophile. When reacting, the equilibrium shifts to the right. Eventually, all the carbonyl compound reacts via a low concentration of the enolate ion. %pic
+    \item Sometimes the base (hydroxide or alkoxide) reacts with the electrophile faster than the enolate does, and this equilibrium mixture won’t work.
     \item Need a base that reacts completely to convert the carbonyl compound to its enolate before adding the electrophile. The most effective and useful base for this purpose is lithium diisopropylamide (LDA), the lithium salt of diisopropylamine. 
-    \item LDA is made by using an alkyllithium reagent to deprotonate diisopropylamine. %pic
+    \item LDA is made by using an alkyllithium reagent to deprotonate diisopropylamine.
+\end{enumerate}
+\chemnameinit{}
+$$
+\chemname{\chemfig{\charge{90=\:}{N}(-[0]H)(-[3]C|H(-[2]CH_3)-[4]C{H\smash{_3}})(-[5]C|H(-[6]CH_3)-[4]C{H\smash{_3}})}}{diisopropylamine \\ $\mathrm{p}K_\text{a} = 40$} \quad
++ \quad
+\chemname{\ch{C4H9Li}}{\textit{n}-butyllithium} \quad
+\ch{->} \quad
+\chemname{\ch{C4H10}}{butane \\ $\mathrm{p}K_\text{a} > 40$} \quad
++ \quad
+\chemname{\chemfig{\charge{90=\:, 0=\:, 45=$^-$}{N}(-[3]C|H(-[2]CH_3)-[4]C{H\smash{_3}})(-[5]C|H(-[6]CH_3)-[4]C{H\smash{_3}})} \quad \ch{Li+}}{lithium diisopropylamide (LDA)}
+$$
+\begin{enumerate}[resume]
     \item When LDA reacts with a ketone, it abstracts the $\alpha$ proton to form the lithium salt of the enolate. Equilibrium lies far to the right.
 \end{enumerate}
 
-\subsection{}
+\subsection{Alkylation of Enolate Ions 20260604}
+
+\begin{enumerate}
+    \item The enolate has two nucleophilic sites (the oxygen and the carbon), it can react at either of these sites.
+    \item Alkylation usually takes place primarily at the $\alpha$ carbon, forming a new \chemfig{C-C} bond.
+    \item Typical bases such as sodium hydroxide or an alkoxide ion give give side reactions with the alkyl halide or tosylate. 
+    \item LDA converts the ketone entirely to its enolate. Because all the LDA is consumed in forming the enolate, and LDA is a very bulky base and thus a poor nucleophile, it generally does not react with the alkyl halide or tosylate.
+    \item When only one kind of hydrogen can be replaced by an alkyl group, the direct alkylation (using LDA) gives the best yields. Otherwise, mixtures of products alkylated at the different carbons may result.
+    \item Aldehydes are not suitable for direct alkylation because they undergo side reactions when treated with LDA.
+\end{enumerate}
 
 \subsection{Formation and Alkylation of Enamines 20260604}
 
 \begin{enumerate}
-    \item An \textbf{enamine} (a \textbf{vinyl amine}) is the nitrogen analogue of an enol.
-    \item The nucleophilic carbon atom attacks an electrophile to give a resonance-stabilized cationic intermediate (an iminium ion). % pic
+    \item An \textbf{enamine} (a \textbf{vinyl amine}) is the nitrogen analogue of an enol. The resonance forms shows that it has some carbanion character. The nucleophilic carbon atom attacks an electrophile to give a resonance-stabilized cationic intermediate (an iminium ion). % pic
     \item An enamine results from the reaction of a ketone or aldehyde with a \textit{secondary} amine.
-    \item Enamines are intermediate in reactivity: more reactive than an enol, but less reactive than an enolate ion.
-    \item The enamine alkylation procedure is sometimes called the \textbf{Stork reaction}. The Stork reaction can alkylate or acylate the position of a ketone, using a variety of reactive alkyl and acyl halides.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\textwidth]{22.4_Enamine_Formation.png}
+        \label{22.4_Enamine_Formation}
+    \end{figure}
+
+    \item Enamines are more reactive than an enol, but less reactive than an enolate ion, thus avoid many side reactions.
+    \item Enamines displace halides from reactive alkyl halides, giving alkylated iminium salts, which can be hydrolyzed to the ketone under acidic conditions.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.4_Enamines_Alkylation_Overall.png}
+        \label{22.4_Enamines_Alkylation_Overall}
+    \end{figure}
+
+    \item The enamine alkylation procedure is sometimes called the \textbf{Stork reaction}. The Stork reaction can alkylate or acylate the position of a ketone to give alkylated and acylated ketone derivatives, using a variety of reactive alkyl and acyl halides.
+\end{enumerate}
+\chemnameinit{\chemfig{C(-[3])(-[5])=C(-[2])-CH_2-X}}
+$$\chemname{\chemfig{Ph-C{H\smash{_2}}-X}}{benzyl halides} \quad 
+\chemname{\chemfig{C(-[3])(-[5])=C(-[2])-C{H\smash{_2}}-X}}{allylic halides} \quad
+\chemname{\chemfig{C{H\smash{_3}}-X}}{methyl halides} \quad
+\chemname{\chemfig{R-C(=[2]O)-Cl}}{acyl halides}$$
+\begin{enumerate}[resume]
+    \item Hydrolysis of the acyl iminium salt produces the $\beta$-diketone as the final product.
 \end{enumerate}
 
 \begin{example} % 22-9
     Show how you would accomplish each conversion using an enamine synthesis with pyrrolidine as the secondary amine.
 \end{example}
+
 \subsection{Alpha Halogenation of Ketones 20260602}
 
 \subsubsection{Base-Promoted Alpha Halogenation}
@@ -158,19 +197,34 @@
 \begin{enumerate}
     \item When a ketone is treated with a halogen and base, an $\alpha$-halogenation reaction occurs. %pic
 \end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{-C(=[2]O)-C(-[2]H)(-[6])-}}{ketone} \quad
++ \quad
+\chemname{\ch{^-OH} \quad
+$+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
+\ch{->} \quad
+\chemname{\chemfig{-C(=[2]O)-C(-[2]X)(-[6])-}}{$\alpha$-haloketone} \quad
++ \quad \ch{X^-} \quad
++ \quad \ch{H2O}$$
 
 \begin{mechanism}
     Base-Promoted Halogenation
+
     \begin{itemize}
-        \item \textbf{\textit{Step 1:}} Deprotonation of the a carbon forms the enolate ion.
+        \item \textbf{\textit{Step 1:}} Deprotonation of the $\alpha$ carbon forms the enolate ion.
         \item \textbf{\textit{Step 2:}} The enolate ion attacks the electrophilic halogen.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{22.5_Base-Promoted_Halogenation.png}
+            \label{22.5_Base-Promoted_Halogenation}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
-
+%----------%
 \begin{enumerate}[resume]
     \item Multiple Halogenation
     \begin{enumerate}
-        \item In many cases, base-promoted halogenation does not stop with replacement of just one hydrogen. The product is more reactive toward further halogenation than is the starting material, because the electronwithdrawing halogen stabilizes the enolate ion, enhancing its formation.
+        \item The $\alpha$-haloketone product is more reactive toward further halogenation than is the starting material, because the electronwithdrawing halogen stabilizes the enolate ion, enhancing its formation.
     \end{enumerate}
 \end{enumerate}
 

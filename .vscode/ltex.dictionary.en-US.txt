@@ -27,3 +27,11 @@ alkoxy
 cyano
 saponification
 Saponification
+alkyne
+Alkylation
+alkoxide
+deprotonate
+enol
+alkylation
+Halogenation
+Deprotonation

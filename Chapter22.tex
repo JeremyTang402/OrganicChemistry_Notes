@@ -178,10 +178,12 @@ $$
     \item The enamine alkylation procedure is sometimes called the \textbf{Stork reaction}. The Stork reaction can alkylate or acylate the position of a ketone to give alkylated and acylated ketone derivatives, using a variety of reactive alkyl and acyl halides.
 \end{enumerate}
 \chemnameinit{\chemfig{C(-[3])(-[5])=C(-[2])-CH_2-X}}
-$$\chemname{\chemfig{Ph-C{H\smash{_2}}-X}}{benzyl halides} \quad 
-\chemname{\chemfig{C(-[3])(-[5])=C(-[2])-C{H\smash{_2}}-X}}{allylic halides} \quad
-\chemname{\chemfig{C{H\smash{_3}}-X}}{methyl halides} \quad
-\chemname{\chemfig{R-C(=[2]O)-Cl}}{acyl halides}$$
+\begin{center}
+    \chemname{\chemfig{Ph-C{H\smash{_2}}-X}}{benzyl halides} \qquad 
+    \chemname{\chemfig{C(-[3])(-[5])=C(-[2])-C{H\smash{_2}}-X}}{allylic halides} \qquad
+    \chemname{\chemfig{C{H\smash{_3}}-X}}{methyl halides} \qquad
+    \chemname{\chemfig{R-C(=[2]O)-Cl}}{acyl halides}
+\end{center}
 \begin{enumerate}[resume]
     \item Hydrolysis of the acyl iminium salt produces the $\beta$-diketone as the final product.
 \end{enumerate}
@@ -220,29 +222,49 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
         \end{figure}
     \end{itemize}
 \end{mechanism}
-%----------%
+
 \begin{enumerate}[resume]
     \item Multiple Halogenation
     \begin{enumerate}
         \item The $\alpha$-haloketone product is more reactive toward further halogenation than is the starting material, because the electronwithdrawing halogen stabilizes the enolate ion, enhancing its formation.
+        \item Base-promoted halogenation is rarely used for the preparation of monohalo ketones. The acid-catalyzed procedure is preferred.
     \end{enumerate}
 \end{enumerate}
 
 \subsubsection{The Haloform Reaction}
 
 \begin{enumerate}
-    \item Methyl ketones have three $\alpha$ protons on the methyl carbon, and they undergo halogenation three times to give trihalomethyl ketones.
+    \item Methyl ketones undergo halogenation three times to give trihalomethyl ketones. The trihalomethyl ketone reacts with hydroxide ion and expels the trihalomethyl anion, leaving a carboxylic acid. The overall reaction is called the \textbf{haloform reaction}.
 \end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[2]O)-CH_3}}{a methyl ketone} \quad
+\ch{->[ excess ~ X2, ~ ^-OH ][ ( X2 $=$ Cl2, ~ Br2, ~ or ~ I2 ) ]} \quad
+\chemname{\chemleft[ \chemfig{R-C(=[2]O)-CX_3} \chemright]}{a trihalomethyl ketone \\ (not isolated)} \quad
+\ch{->[ ^-OH ]} \quad
+\chemname{\chemfig{R-C(=[2]O)-O^{-}}}{a carboxylate} \quad
++ \quad
+\chemname{\ch{HCX3}}{a haloform}$$
 
 \begin{mechanism}
     Final Steps of the Haloform Reaction
 
     The conclusion of the haloform reaction is a nucleophilic acyl substitution, with hydroxide as the nucleophile and \ch{^-CX3} as the leaving group.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Hydroxide adds to the carbonyl group.
+        \item \textbf{\textit{Step 2:}} \ch{^-CX3} leaves.
+        \item \textbf{\textit{Step 3:}} Fast proton transfer from the acid.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{22.5_Haloform_Reaction_Final.png}
+            \label{22.5_Haloform_Reaction_Final}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \begin{enumerate}[resume]
-    \item When the halogen is iodine, the haloform product (iodoform) is a solid that separates out as a yellow precipitate. This \textbf{iodoform test} identifies methyl ketones, which halogenate three times, then lose to give iodoform.
-    \item Iodine is an oxidizing agent, and an alcohol can give a positive iodoform test if it oxidizes to a methyl ketone.
+    \item When the halogen is iodine, the haloform product (iodoform) is a solid that separates out as a yellow precipitate.
+    \item This \textbf{iodoform test} identifies methyl ketones, which halogenate three times, then lose to give iodoform.
+    \item An alcohol can give a positive iodoform test if it oxidizes to a methyl ketone.
 \end{enumerate}
 
 \begin{example} % 22-14 !!!
@@ -262,6 +284,7 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \begin{enumerate}
     \item The $\alpha$ halogenation of ketones can also be catalyzed by acid.
     \item Acidic halogenation can selectively replace just one hydrogen or more than one, depending on the amount of the halogen added.
+    \item Acetic acid serves as both the solvent and the acid catalyst.
 \end{enumerate}
 
 \begin{mechanism}
@@ -271,33 +294,76 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     \begin{itemize}
         \item \textbf{\textit{Step 1:}} The enol attacks the halogen.
         \item \textbf{\textit{Step 2:}} Deprotonation.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{22.5_Acid-Catalyzed_Halogenation.png}
+            \label{22.5_Acid-Catalyzed_Halogenation}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
 
+\begin{enumerate}[resume]
+    \item Halogenation of aldehydes usually results in oxidation to carboxylic acids.
+\end{enumerate}
+
 \begin{example} % solved 22-2
     Propose a mechanism for the acid-catalyzed conversion of cyclohexanone to 2-chlorocyclohexanone.
-
-    $$\chemname{\chemfig{*6(----(=O)--)}}{cyclohexanone} \quad \ch{->[ Cl2][ CH3COOH]} \quad \chemname{\chemfig{*6(---(-[:60]H)(-[0]Cl)-(=O)--)}}{2-chlorocyclohexanone \\ (65\%)}$$
-
-    \textbf{SOLUTION} \quad 
+    \chemnameinit{}
+    \begin{center}
+        \chemname{\chemfig{*6(----(=O)--)}}{cyclohexanone} \quad \ch{->[ Cl2][ CH3COOH]} \quad \chemname{\chemfig{*6(---(-[:60]H)(-[0]Cl)-(=O)--)}}{2-chlorocyclohexanone \\ (65\%)}
+    \end{center}
+    %\textbf{SOLUTION} \quad 
 \end{example}
 
 \subsection{Alpha Bromination of Acids: The HVZ Reaction 20260602 20260604}
 
 \begin{enumerate}
-    \item The \textbf{Hell–Volhard–Zelinsky (HVZ)} reaction replaces a hydrogen atom with a bromine atom on the carbon of a carboxylic acid. The carboxylic acid is treated with bromine and phosphorus tribromide, followed by water to hydrolyze the intermediate $\alpha$-bromo acyl bromide.
+    \item The \textbf{Hell–Volhard–Zelinsky (HVZ)} reaction replaces a hydrogen atom with a bromine atom on the $\alpha$ carbon of a carboxylic acid.
+    \item The carboxylic acid is treated with bromine and phosphorus tribromide, followed by water to hydrolyze the intermediate $\alpha$-bromo acyl bromide.
+\end{enumerate}
+\chemnameinit{}
+$$\chemfig{R-CH_2-C(=[2]O)-OH} \quad
+\ch{->[ Br2/PBr3 ]} \quad
+\chemname{\chemfig{R-CH(-[2]Br)-C(=[2]O)-Br}}{$\alpha$-bromo acyl bromide} \quad
+\ch{->[ H2O ]} \quad
+\chemname{\chemfig{R-CH(-[2]Br)-C(=[2]O)-OH}}{$\alpha$-bromoacid} \quad
++ \quad \ch{HBr}$$
+\begin{enumerate}[resume]
+    \item The mechanism is similar to other acid-catalyzed $\alpha$ halogenations; the enol form of the acyl bromide serves as a nucleophilic intermediate.
+    \begin{enumerate}
+        \item First the formation of acyl bromide, which enolizes more readily than does the acid.
+        \item The enol is nucleophilic, attacking bromine to give the $\alpha$-brominated acyl bromide.
+        \item The $\alpha$-brominated acyl bromide can be used for the synthesis of acid derivatives of hydrolyzed by water to acid.
+    \end{enumerate}
 \end{enumerate}
 
 \begin{example} % 22-4 22-5
     A student intends to carry out the following synthesis:
+    $$\chemfig{*6(----(=O)--)} \quad \ch{->[ (1) base ][ (2) PhCH2Br ]} \quad \chemfig{*6(---(-CH_2Ph)-(=O)--)}$$
+    He adds sodium ethoxide to cyclohexanone (in ethanol solution) to make the enolate ion; then he adds benzyl bromide to alkylate the enolate ion, and heats the solution for half an hour to drive the reaction to completion.
+    \begin{enumerate}[label=(\alph*)]
+        \item Predict the products of this reaction sequence.
+        \item Suggest how this student might synthesize the correct product.
+    \end{enumerate}
 \end{example}
 
-\subsection{The Aldol Condensation of  Ketones and  Aldehydes 20260604}
+\begin{example}
+    Predict the major products of the following reactions.
+\end{example}
+
+\subsection{The Aldol Condensation of Ketones and Aldehydes 20260604}
 
 \begin{enumerate}
-    \item The aldol condensation involves the nucleophilic addition of an enolate ion to another carbonyl group.
-    \item The product, a ketone or aldehyde, is called an aldol because it contains both an aldehyde group and the hydroxy group of an alcohol. The aldol product may dehydrate to an a,b-unsaturated carbonyl compound (ususally the final product).
+    \item Under basic conditions, the \textbf{aldol condensation} involves the nucleophilic addition of an enolate ion to another carbonyl group.
+    \item The aldol product may dehydrate to an $\alpha$,$\beta$-unsaturated carbonyl compound (ususally the final product).
 \end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{R-C(=[6]O)-C|{H\smash{_2}}(-[2,1,1,,draw=none] C(=[2]O)(-[4]R)-C{H\smash{_2}}-R')-R'}}{ketone or aldehyde} \quad
+\ch{<=>[ H^+ ~ {or} ~ ^-OH ]} \quad
+\chemname{\chemfig{R-C(=[6]O)-CH(-[2]C(-[4]R)(-[2]OH)-C{H\smash{_2}}-R')-R'}}{aldol product}$$
+$$\ch{->[ heat ][ H^+ ~ {or} ~ ^-OH ]} \quad
+\chemname{\chemfig{R-C(=[6]O)-C(=[2]C(-[4]R)-C{H\smash{_2}}-R')-R'}}{$\alpha,\beta$-unsaturated \\ ketone or aldehyde} \quad
++ \quad \ch{H2O}$$
 
 \subsubsection{Base-Catalyzed Aldol Condensations}
 
@@ -307,13 +373,31 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     The base-catalyzed aldol involves the nucleophilic addition of an enolate ion to a carbonyl group.
     \begin{itemize}
         \item \textbf{\textit{Step 1:}} A base removes an a proton to form an enolate ion.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{22.7_Aldol_Condensation_Base_1.png}
+            \label{22.7_Aldol_Condensation_Base_1}
+        \end{figure}
+        
         \item \textbf{\textit{Step 2:}} The enolate ion adds to the carbonyl group.
         \item \textbf{\textit{Step 3:}} Protonation of the alkoxide gives the aldol product.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{22.7_Aldol_Condensation_Base_2.png}
+            \label{22.7_Aldol_Condensation_Base_2}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
 
 \begin{enumerate}
-    \item Ketones also undergo aldol condensation, but equilibrium concentrations of the products are generally small. Accomplished by clever experimental methods. % pic
+    \item Ketones also undergo aldol condensation, but equilibrium concentrations of the products are generally small. Accomplished by clever experimental methods.
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.2\textwidth]{22.7_Ketone_Aldol_Condensation_Technique.png}
+       \caption{A Clever Technique of Aldol Condensation of Acetone}
+       \label{22.7_Ketone_Aldol_Condensation_Technique}
+    \end{figure}
+    
 \end{enumerate}
 
 \subsubsection{Acid-Catalyzed Aldol Condensations}
@@ -323,7 +407,26 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 
     The acid-catalyzed aldol involves nucleophilic addition of an enol to a protonated carbonyl group.
     \begin{itemize}
-        \item 
+        \item \textbf{\textit{Step 1:}} Formation of the enol, by protonation on O followed by deprotonation on C.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{22.7_Aldol_Condensation_Acid_1.png}
+            \label{22.7_Aldol_Condensation_Acid_1}
+        \end{figure}
+
+        \item \textbf{\textit{Step 2:}} Addition of the enol to the protonated carbonyl.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{22.7_Aldol_Condensation_Acid_2.png}
+            \label{22.7_Aldol_Condensation_Acid_2}
+        \end{figure}
+
+        \item \textbf{\textit{Step 3:}} Deprotonation to give the aldol product.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{22.7_Aldol_Condensation_Acid_3.png}
+            \label{22.7_Aldol_Condensation_Acid_3}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
 
@@ -340,12 +443,23 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     Unlike most alcohols, aldols undergo dehydration in base. Abstraction of an proton gives an enolate that can expel hydroxide ion to give a conjugated product.
     \begin{itemize}
         \item \textbf{\textit{Step 1:}} Formation of the enolate ion.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{22.8_Aldol_Dehydration_Base_1.png}
+            \label{22.8_Aldol_Dehydration_Base_1}
+        \end{figure}
+
         \item \textbf{\textit{Step 2:}} Elimination of hydroxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{22.8_Aldol_Dehydration_Base_2.png}
+            \label{22.8_Aldol_Dehydration_Base_2}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
 
 \begin{enumerate}[resume]
-    \item The net result is the oxygen atom of the carbonyl group and the 2 hydrogen atom of the alkane group lose 1 \ch{H2O}.
+    \item The net result is the loss of the oxygen atom from the carbonyl group and the 2 hydrogen atom from the alkyl group (1 equivalent \ch{H2O}).
 \end{enumerate}
 
 \subsection{Crossed Aldol Condensations 20260604}
@@ -353,7 +467,10 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \begin{enumerate}
     \item When the enolate of one aldehyde (or ketone) adds to the carbonyl group of a different aldehyde or ketone, the result is called a \textbf{crossed aldol condensation}.
     \item Successful crossed aldol condensations
-    \item PROPOSING REACTION MECHANISMS
+    \begin{enumerate}
+        \item If only one of the reactants has an $\alpha$ hydrogen, only one enolate will be present in the solution.
+        \item If the other reactant is present in excess or contains a particularly electrophilic carbonyl group, it is more likely to be attacked by the enolate ion.
+    \end{enumerate}
 \end{enumerate}
 
 \begin{example} % 22-26
@@ -365,29 +482,55 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     \begin{center}
         \chemname{\chemfig{*6(-=(-C(-[5]H)=[0]C(-[1]H)-[7]C(=[6]O)(-[1]H))-=-=)}}{cinnamaldehyde}
     \end{center}
-    
 \end{example}
 
 \subsection{Aldol Cyclizations 202060604}
 
 \begin{enumerate}
-    \item Intramolecular aldol reactions of diketones are often useful for making five- and sixmembered rings.
+    \item Intramolecular aldol reactions of diketones are often useful for making five- and sixmembered rings (1,4-diketone and 1,5-diketone respectively).
+    \item Rings smaller or larger than five or six members are not favored due to ring strain or entropy.
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.6\textwidth]{22.10_1,4-diketone_Condense.png}
+       \label{22.10_1,4-diketone_Condense}
+    \end{figure}
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.6\textwidth]{22.10_1,5-diketone_Condense.png}
+       \label{22.10_1,5-diketone_Condense}
+    \end{figure}
 \end{enumerate}
 
 \subsection{Planning Syntheses Using Aldol Condensations 202060604}
 
 \begin{enumerate}
     \item Aldol condensations (with dehydration) form new carbon-carbon double bonds.
+    \item These reactions produce $\beta$-hydroxy aldehydes and ketones (aldols) and $\alpha$,$\beta$-unsaturated aldehydes and ketones.
+    \item The starting material can be determined by dividing  the structure at the $\alpha$,$\beta$ bond or the double bound.
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=0.7\textwidth]{22.11_Aldol_Condensations_Syntheses.png}
+       \label{22.11_Aldol_Condensations_Syntheses}
+    \end{figure}
 \end{enumerate}
 
 \begin{example} % 22-33
-    The following compound results from base-catalyzed aldol cyclization of a 2-substituted cyclohexanone. (a) Show the diketone that would cyclize to give this product. (b) Propose a mechanism for the cyclization。
+    The following compound results from base-catalyzed aldol cyclization of a 2-substituted cyclohexanone.
+    \begin{enumerate}[label=(\alph*)]
+        \item Show the diketone that would cyclize to give this product.
+        \item Propose a mechanism for the cyclization.
+    \end{enumerate}
+    \begin{center}
+        \chemfig{*6(--*6(=-(=O)----)----)}
+    \end{center}
 \end{example}
 
-\subsection{The Claisen Ester  Condensation 20260609}
+\subsection{The Claisen Ester Condensation 20260609}
 
 \begin{enumerate}
-    \item A typical for an proton of an ester is about 24, compared with a of about 20 for a ketone or aldehyde.
+    \item Esters are less acidic than ketones and aldehydes.
+    \item The $\alpha$ hydrogens of esters can be deprotonated by strong base to give enol ions.
+    \item The \textbf{Claisen condensation} results when an ester molecule undergoes nucleophilic acyl substitution with an enolate ion serving as the nucleophile.
 \end{enumerate}
 
 \begin{mechanism}
@@ -396,10 +539,25 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     The Claisen condensation is a nucleophilic acyl substitution on an ester, in which the attacking nucleophile is an enolate ion.
     \begin{itemize}
         \item \textbf{\textit{Step 1:}} Formation of the enolate ion.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{22.12_Claisen_Ester_Condensation_1.png}
+            \label{22.12_Claisen_Ester_Condensation_1}
+        \end{figure}
         \item \textbf{\textit{Step 2:}} Addition of the enolate to give a tetrahedral intermediate.
         \item \textbf{\textit{Step 3:}} Elimination of the alkoxide leaving group.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{22.12_Claisen_Ester_Condensation_2.png}
+            \label{22.12_Claisen_Ester_Condensation_2}
+        \end{figure}
     \end{itemize}
 \end{mechanism}
+
+\begin{enumerate}[resume]
+    \item The ester products of Claisen condensations are more acidic than simple ketones, aldehydes, and esters because of the delocalization of the negative charge.
+    \item Deprotonation of the ester provides a driving force for the Claisen condensation. After the reaction is complete, addition of dilute acid converts the enolate back to the $\beta$-keto ester.
+\end{enumerate}
 
 \begin{example} % s 22-4
     Propose a mechanism for the self-condensation of ethyl acetate to give ethyl acetoacetate.
@@ -425,20 +583,30 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \begin{enumerate}
     \item An internal Claisen cyclization is called a \textbf{Dieckmann condensation} or a \textbf{Dieckmann cyclization}.
     \item Five- and six-membered rings are easily formed by Dieckmann condensations.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.13_Dieckmann_Condensation.png}
+        \label{22.13_Dieckmann_Condensation}
+    \end{figure}
 \end{enumerate}
 
 \begin{example} % 22-40
     Some (but not all) of the following keto esters can be formed by Dieckmann condensations. Determine which ones are possible, and draw the starting diesters.
-    \begin{enumerate}[label=(\alph*)]
-        \item \chemfig{*6(-(=O)--(-C(=[2]O)-[0]OCH_2CH_3)---)}
-    \end{enumerate}
 \end{example}
 
 \subsection{Crossed Claisen Condensations 202060609}
 
 \begin{enumerate}
     \item In a \textbf{crossed Claisen condensation}, an ester without hydrogens serves as the electrophilic component.
+    \item Some useful esters without $\alpha$ hydrogens
 \end{enumerate}
+\chemnameinit{}
+\begin{center}
+    \chemname{\chemfig{C(-[4]*6(-=-=-=))(=[2]O)-OCH_3}}{methyl benzoate} \quad
+    \chemname{\chemfig{H-C(=[2]O)-OCH_3}}{methyl formate} \quad
+    \chemname{\chemfig{CH_3O-C(=[2]O)-OCH_3}}{dimethyl carbonate} \quad
+    \chemname{\chemfig{CH_3O-C(=[2]O)-C(=[2]O)-OCH_3}}{dimethyl oxalate}
+\end{center}
 
 \begin{example} % s 22-6
     Show how a crossed Claisen condensation might be used to prepare
@@ -452,37 +620,86 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \end{example}
 
 \begin{enumerate}[resume]
-    \item Crossed Claisen condensations between ketones and esters are also possible.
+    \item Crossed Claisen condensations between ketones and esters are also possible. The ketone enolate attacks the ester, which undergoes nucleophilic acyl substitution and thereby acylates the ketone.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.14_Ketone_Ester_Condensation.png}
+        \label{22.14_Ketone_Ester_Condensation}
+    \end{figure}
 \end{enumerate}
 
 \subsection[Syntheses Using beta-Dicarbonyl Compounds 20260609]{Syntheses Using $\beta$-Dicarbonyl Compounds 20260609}
 
 \begin{enumerate}
-    \item $\beta$-dicarbonyl compounds such as malonic ester and acetoacetic ester are more acidic than alcohols.
-    \chemnameinit{}
-    \begin{center} % !!!
-        \chemname{\chemfig{CH_3CH_2O-C(=[2]O)-C{H\smash{_2}}-C(=[2]O)-OCH_2CH_3}}{diethyl malonate (malonic ester)} \quad
-        \chemname{\chemfig{C{H\smash{_3}}-C(=[2]O)-C{H\smash{_2}}-C(=[2]O)-OCH_2CH_3}}{ethyl acetoacetate (acetoacetic ester)}
-    \end{center}
+    \item Anions of $\beta$-dicarbonyl compounds can be completely deprotonated and converted to their enolate ions.
+    \item The \textit{malonic ester synthesis} and the \textit{acetoacetic ester synthesis} use the enhanced acidity of the $\alpha$ protons to accomplish difficult alkylations and acylations.
+    \item At the end of the synthesis, one of the carbonyl groups can be removed by decarboxylation.
+\end{enumerate}
+\chemnameinit{}
+\begin{center} % !!!
+    \chemname{\chemfig{CH_3CH_2O-C(=[2]O)-C{H\smash{_2}}-C(=[2]O)-OCH_2CH_3}}{diethyl malonate (malonic ester)} \quad
+    \chemname{\chemfig{C{H\smash{_3}}-C(=[2]O)-C{H\smash{_2}}-C(=[2]O)-OCH_2CH_3}}{ethyl acetoacetate (acetoacetic ester)}
+\end{center}
+\begin{enumerate}[resume]
+    \item Acidities of $\beta$-Dicarbonyl Compounds
+    \begin{enumerate}
+        \item The malonic ester has a $\mathrm{p}K_\mathrm{a} = 13$, more acidic than water and alcohols.
+    \end{enumerate}
 \end{enumerate}
 
 \subsection{The Malonic Ester Synthesis 20260609}
 
 \begin{enumerate}
     \item The \textbf{malonic ester synthesis} makes substituted derivatives of acetic acid.
-    $$\chemname{\chemfig{H-C(-[2]C(=[3]O)-[0]OC_2H_5)(-[6]C(=[5]O)-[0]OC_2H_5)-H}}{malonic ester} \ch{->[(1) NaOC_2H_5][(2) ]}$$
-    \item Decarboxylation of the Alkylmalonic Acid
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{H-C(-[2]C(=[3]O)-[0]OC_2H_5)(-[6]C(=[5]O)-[0]OC_2H_5)-H}}{malonic ester} \quad
+\ch{->[ (1) NaOC_2H_5 ][ (2) $\mbox{\chemfig{R-X}}$ ]} \quad
+\chemname{\chemfig{R-C(-[2]C(=[3]O)-OC_2H_5)(-[6]C(=[5]O)-OC_2H_5)-H}}{alkylated malonic ester}
+\ch{->[ H3O+ ][ heat ]} \quad
+\chemname{\chemfig{R-C(-[2]H)(-[6]C(=[5]O)-OH)-H}}{substituted acetic acid \\ [2em] $+$ \ch{2 C2H5OH} $+$ \ch{CO2 ^}}$$
+\begin{enumerate}[resume]
+    \item Malonic ester is completely deprotonated by sodium ethoxide.
+    \item The resulting enolate ion is alkylated by an unhindered alkyl halide, tosylate, or other electrophilic reagent (good $\mathrm{S}_\mathrm{N}2$ substrate)
+    \item Hydrolysis of the alkylated diethyl malonate gives a malonic acid derivative.
+    \item Decarboxylation of the alkylmalonic acid takes place through a cyclic transition state.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.16_Malonic_Ester_Decarboxylation.png}
+        \label{22.16_Malonic_Ester_Decarboxylation}
+    \end{figure}
+    \item The alkylmalonic ester can be alkylated again and finally gives a disubstituted derivative of acetic acid.
+    \item It is useful for making cycloalkanecarboxylic acids. A strained four-membered ring system can be generated by this ester alkylation.
 \end{enumerate}
 
-\begin{example} % 22-7
+\begin{example} % s 22-7
     Show how the malonic ester synthesis is used to prepare 2-benzylbutanoic acid.
 \end{example}
 
 \subsection{The Acetoacetic Ester Synthesis 202060609}
 
 \begin{enumerate}
-    \item The acetoacetic ester synthesis is similar to the malonic ester synthesis, but the final products are ketones: specifically, substituted derivatives of acetone.
+    \item The acetoacetic ester synthesis is similar to the malonic ester synthesis, but the final products are substituted derivatives of acetone.
     \item Acetoacetic ester is like a molecule of acetone with a temporary ester group attached to enhance its acidity.
+\end{enumerate}
+\chemnameinit{}
+$$\chemname{\chemfig{CH_3-C(=[2]O)-CH_2-C(=[2]O)-OC_2H_5}}{ethyl acetoacetate \\ (acetoacetic ester)} \quad
+\ch{->[ (1) ^-OC2H5 ][ (2) R-X ]} \quad
+\chemname{\chemfig{CH_3-C(=[2]O)-CH(-[2]R)-C(=[2]O)-OC_2H_5}}{alkylated ester}$$
+$$\ch{->[ H3O+ ][ heat ]} \quad
+\chemname{\chemfig{CH_3-C(=[2]O)-CH_2(-[2]R)}}{substituted acetone} \quad
++ \quad \ch{C2H5OH} \quad
++ \quad \ch{CO2 ^}$$
+\begin{enumerate}[resume]
+    \item Ethoxide ion completely deprotonates acetoacetic ester.
+    \item The resulting enolate is alkylated by an unhindered alkyl halide or tosylate (good $\mathrm{S}_\mathrm{N}2$ substrate) to give an alkylacetoacetic ester.
+    \item Acidic hydrolysis gives an alkylacetoacetic acid.
+    \item The $\beta$ keto group promotes decarboxylation to form a substituted acetone.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.17_Acetoacetic_Ester_Decarboxylation.png}
+        \label{22.17_Acetoacetic_Ester_Decarboxylation}
+    \end{figure}
 \end{enumerate}
 
 \begin{example} % s 22-8
@@ -494,11 +711,14 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \end{example}
 
 \begin{example} % 22-51
+    ~
     \begin{enumerate}[label=(\alph*)]
-        \item Although the following compound is a substituted acetone derivative, it cannot be made  by the acetoacetic ester synthesis. Explain why (two reasons).
+        \item Although the following compound is a substituted acetone derivative, it cannot be made by the acetoacetic ester synthesis. Explain why (two reasons).
         \begin{center}
-            \chemfig{-[:-30]-[:30](=[2]O)-[:-30](-[6]-[:-30]=[:30])-[:30]*6(-=-=-=)}
+            \chemfig{*6(-=(-[:-30]-[:30](=[2]O)-[:-30](-[6]-[:-30]=[:30])-[:30]*6(-=-=-=))-=-=)}
         \end{center}
+        \item The use of LDA to make enolate ions has provided alternatives to the acetoacetic ester synthesis. Show how you might make the compound shown in part (a), beginning with 1,3-diphenylacetone.
+        \item Enamine reactions occur under relatively mild conditions, and they often give excellent yields of compounds like the one shown in part (a). Show how you might use an enamine reaction for this synthesis, beginning with 1,3-diphenylacetone.
     \end{enumerate}
 \end{example}
 
@@ -507,39 +727,122 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \subsection{Conjugate Additions: The Michael Reaction 202060609 20260611}
 
 \begin{enumerate}
-    \item 
+    \item $\alpha$,$\beta$-Unsaturated carbonyl compounds have unusually electrophilic double bonds.
+    \item The $\beta$ carbon is electrophilic because it shares the partial positive charge of the carbonyl carbon atom through resonance.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{22.18_Electrophilic_Beta_Carbon.png}
+        \label{22.18_Electrophilic_Beta_Carbon}
+    \end{figure}
+    \item When attack occurs at the carbonyl group, protonation of the oxygen leads to a \textbf{1,2-addition} product.
+    \item When attack occurs at the position, the addition is called a \textbf{1,4-addition} or \textbf{conjugate addition}.
 \end{enumerate}
 
 \begin{mechanism}
     1,2-Addition and 1,4-Addition (Conjugate Addition)
 
-    \textit{1,2-Addition}
+    \noindent \textit{1,2-Addition} \\
+    1,2-addition is the standard nucleophilic addition to a carbonyl group.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Addition of the nucleophile to \chemfig{C=O}.
+        \item \textbf{\textit{Step 2:}} Protonation of the alkoxide.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{22.18_1,2-Addition.png}
+            \label{22.18_1,2-Addition}
+        \end{figure}
+    \end{itemize}    
+
+    \noindent \textit{1,4-addition (conjugate addition or Michael addition)} \\
+    In a 1,4-addition, the nucleophile adds to the $\beta$ carbon atom of an $\alpha$,$\beta$-unsaturated system to give an enolate ion. Protonation may occur on oxygen to give an enol, or on carbon to give the keto form.
+    \begin{itemize}
+        \item \textbf{\textit{Step 1:}} Conjugate addition of the nucleophile.
+        \item \textbf{\textit{Step 2:}} Protonation of the enolate (on oxygen or on carbon).
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{22.18_1,4-Addition.png}
+            \label{22.18_1,4-Addition}
+        \end{figure}
+    \end{itemize}
 \end{mechanism}
 
 \begin{enumerate}[resume]
+    \item Conjugate addition of a carbanion to the double bond of an $\alpha$,$\beta$-unsaturated carbonyl compound (or other electron-poor double bond) is called a \textbf{Michael addition}.
+    \item The electrophile is called the \textbf{Michael acceptor}, the nucleophile is called the \textbf{Michael donor}.
     \item Some Common Michael Donors and Michael Acceptors
-    \item The addition of the malonic ester enolate to methyl vinyl ketone (MVK).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{22.18_Michael_Donors_and_Acceptors.png}
+        \label{22.18_Michael_Donors_and_Acceptors}
+    \end{figure}
+    
+    \item The enolate ions of acetoacetic ester and malonic ester are good Michael donors.
+    \item The addition of the malonic ester enolate to methyl vinyl ketone (MVK)
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{22.18_Malonic_Ester_to_MVK.png}
+        \label{22.18_Malonic_Ester_to_MVK}
+    \end{figure}
 \end{enumerate} % 1-5 diketone
 
 \begin{example} % s 22-9
     Show how the following diketone might be synthesized using a Michael addition.
+    \begin{center}
+        \chemfig{CH(-[2]*6(-=-=-=))(-C{H\smash{_2}}-C(=[2]O)-*6(-=-=-=))(-[6,2]CH(-C(=[2]O)-CH_3)(-[4]*6(-=-=-=)))}
+    \end{center}
 \end{example}
 
 \begin{example} % 22-52
-    In Solved Problem 22-9, the target molecule was synthesized using a Michael addition to form the bond that is
+    In Solved Problem 22-9, the target molecule was synthesized using a Michael addition to form the bond that is $\beta$,$\gamma$ to the upper carbonyl group. Another approach is to use a Michael addition to form the bond that is to $\beta$,$\gamma$ the other (lower) carbonyl group. Show how you would accomplish this alternative synthesis.
 \end{example}
 
 \begin{example} % 22-53
     Show how cyclohexanone might be converted to the following $\delta$-diketone (\textit{Hint:} Stork).
+    \begin{center}
+        \chemfig{*6(---(-[:30]-[:-30]-[:30](=[2]O)-[:-30])-(=[2]O)--)}
+    \end{center}
 \end{example}
+
+\begin{note}
+    Claisen condensations usually give 1,3-dicarbonyl products, with one saturated carbon between two carbonyl groups. Michael additions commonly give 1,5-dicarbonyl products, with three saturated carbons between two carbonyl groups.
+\end{note}
 
 \subsection{The Robinson Annulation 20260611}
 
 \begin{enumerate}
-    \item $$\chemfig{*6(--(=O)-(-[0]H)(-[1]CH_3)---)} \qquad $$
-    \chemfig{C(-[2]C(-[0]H)(=[3]C(-[2]H)(-[5]H)))(-[5]H_3C)(=[7]O)}
-    \item not from the less substituted alpha carbon.
-    \item eboth product may appear, but quilibrium prefers the conjugated product.
+    \item The \textbf{Robinson annulation} reaction: Under strongly basic or acidic conditions, the product of the Michael reaction undergoes a spontaneous intramolecular aldol condensation, usually with dehydration, to give a conjugated cyclohexenone.
+\end{enumerate}
+\chemnameinit{}
+$$\chemfig{*6(--(=O)-(-[0]H)(-[1]CH_3)---)} \qquad
+\chemname{\chemfig{C(-[2]C(-[0]H)(=[3]C(-[2]H)(-[5]H)))(-[5]H_3C)(=[7]O)}}{MVK} \quad
+\ch{->[ ^-OH ][ ($-$ H2O )]} \quad
+\chemname{\chemfig{*6(=-(=O)---(-[2]CH_3)(*6(------)-))}}{new cyclohexenone \\ ($65 \%$)}$$
+\begin{enumerate}[resume]
+    \item Mechanism
+    \begin{enumerate}
+        \item Step 1: Michael addition.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{22.19_Robinson_Annulation_1.png}
+            \label{22.19_Robinson_Annulation_1}
+        \end{figure}
+
+        \item Step 2: Cyclic aldol to form a six-membered ring.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{22.19_Robinson_Annulation_2.png}
+            \label{22.19_Robinson_Annulation_2}
+        \end{figure}
+
+        \item Step 3: Dehydration of the aldol product.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{22.19_Robinson_Annulation_3.png}
+            \label{22.19_Robinson_Annulation_3}
+        \end{figure}
+    \end{enumerate}
+    \item The reaction prefers to start at the more substituted carbon.
+    \item Both product may appear, but equilibrium prefers the conjugated one.
 \end{enumerate}
 
 \begin{example} % 22-58
@@ -550,9 +853,9 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
     \item Some Name Reactions
     \begin{enumerate}
         \item Perkin condensation: Cinnamic acid synthesis from aryl aldehyde and acetic anhydride.
-        \item Knoevenagel condensation:
-        \item 
-        \item 
+        \item Knoevenagel condensation: Condensation between carbonyl compounds and activated methylene compounds catalyzed by amines.
+        \item Darzens condensation: $\alpha$,$\beta$-Epoxy esters (glycidic esters) from base-catalyzed condensation of $\alpha$-haloesters with carbonyl compounds.
+        \item Reformatsky reaction: Nucleophilic addition of organozinc reagents generated from $\alpha$-haloesters to carbonyls.
     \end{enumerate}
 \end{enumerate}
 
@@ -565,6 +868,7 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 \end{example}
 
 \begin{example} % 22-61 not very good !!!
+    ~
     \begin{enumerate}[label=\arabic*.]
         \item Rank the following compounds in order of increasing acidity.
         \item Indicate which compounds would be more than 99 \% deprotonated by a solution of sodium ethoxide  in ethanol.
@@ -573,13 +877,16 @@ $+$ \quad \ch{X2}}{( \ch{X2} $=$ \ch{Cl2}, \ch{Br2}, or \ch{I2} )} \quad
 
 \begin{example} % 22-70
     Show how you would use the malonic ester synthesis to make the following compounds.
+\begin{comment}
     \begin{enumerate}[label=(\alph*)]
-        \item \chemfig{CH_2C{H\smash{_2}}(-[4]*6(-=-=-=))(-C(=[2]O)-OH)}
-        \item \chemfig{[:18]*5(--(-[:30]-[:-30](-[:30]COOH)(-[6]CH_2CH_3))---)}
-        \item \chemfig{C(-[4]*6(------))(-OH)(=[2]O)}
+        \item \chemfig{CH_2C{H\smash{_2}}(-[4]*6(-=-=-=))(-C(=[2]O)-OH)} \\
+        \item \chemfig{[:18]*5(--(-[:30]-[:-30](-[:30]COOH)(-[6]CH_2CH_3))---)} \\
+        \item \chemfig{C(-[4]*6(------))(-OH)(=[2]O)} \\
     \end{enumerate}
+\end{comment}
 \end{example}
 
 \begin{example} % 22-73
     Propose mechanisms for the following reactions.
 \end{example}
+%----------%

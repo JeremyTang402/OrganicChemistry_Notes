@@ -13,8 +13,7 @@
 \usepackage{float}
 \usepackage{comment}
 
-\setchemfig{atom sep=1.5em, bond join=true, fixed length=true}
-\setcharge{extra sep=3pt}
+\setchemfig{atom sep=1.5em, bond join=true, fixed length=true, cram width=0.6ex, cram dash width=0.4pt, cram dash sep=0.5pt}
 
 \let\oldchemname\chemname
 \renewcommand{\chemname}[2]{\oldchemname{#1}{\small\shortstack[c]{#2}}}
@@ -23,7 +22,7 @@
 
 \DeclareSIUnit\angstrom{\text{Å}}
 
-%\pagestyle{empty}
+\sisetup{range-units = single, range-phrase = {$\sim$}}
 
 \begin{document}
 
